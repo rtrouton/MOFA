@@ -13,9 +13,9 @@ November 25, 2024 @ 10:00 AM Eastern Time
 
 | **Product Package** | **CFBundle Version** | **CFBundle Identifier** | **Download** |
 |----------------------|----------------------|--------------------------|--------------|
-| **Microsoft 365 and Office 2021 Suite Installer**<br>(Includes Word, Excel, PowerPoint, Outlook, OneNote, OneDrive, and MAU) | 16.91.24111020 | com.microsoft.word | [Download](https://go.microsoft.com/fwlink/?linkid=525133) |
-| **Microsoft 365 BusinessPro Suite Installer**<br>(Includes Word, Excel, PowerPoint, Outlook, OneNote, OneDrive, Teams, Defender Shim, and MAU) | 16.91.24111020 | com.microsoft.word | [Download](https://go.microsoft.com/fwlink/?linkid=2009112) |
-| **Word 365/2021 Standalone Installer** | 16.91.24111020 | com.microsoft.word | [Download](https://go.microsoft.com/fwlink/?linkid=525134) |
+| **Microsoft 365 and Office 2021 Suite Installer**<br>(Includes Word, Excel, PowerPoint, Outlook, OneNote, OneDrive, and MAU) | 16.91.24111020 | com.microsoft.word | <a href="https://go.microsoft.com/fwlink/?linkid=525133"><img src="images/suite.png" alt="Download Image" width="80"></a> |
+| **Microsoft 365 BusinessPro Suite Installer**<br>(Includes Word, Excel, PowerPoint, Outlook, OneNote, OneDrive, Teams, Defender Shim, and MAU) | 16.91.24111020 | com.microsoft.word | <a href="https://go.microsoft.com/fwlink/?linkid=2009112"><img src="images/suite.png" alt="Download Image" width="80"></a> |
+| **Word 365/2021 Standalone Installer** | 16.91.24111020 | com.microsoft.word | <a href="https://go.microsoft.com/fwlink/?linkid=525134"><img src="images/MSWD_512x512x32.png" alt="Download Image" width="80"></a> |
 | **Excel 365/2021 Standalone Installer** | 16.91.24111020 | com.microsoft.excel | [Download](https://go.microsoft.com/fwlink/?linkid=525135) |
 | **PowerPoint 365/2021 Standalone Installer** | 16.91.24111020 | com.microsoft.powerpoint | [Download](https://go.microsoft.com/fwlink/?linkid=525136) |
 | **Outlook 365/2021 Standalone Installer (Weekly)** | 16.91.24111020 | com.microsoft.outlook | [Download](https://go.microsoft.com/fwlink/?linkid=525137) |
