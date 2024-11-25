@@ -1,6 +1,6 @@
 # **Mac Admins Microsoft**
 
-This repository provides an up-to-date list of Microsoft Office downloads for Mac, replacing the retired [**www.macadmins.software**](https://macadmins.software). Special thanks to [**Paul Bowden**](https://github.com/pbowden-msft) for his contributions to the Mac Admins community. We encourage active community involvement to keep this resource current.
+This repository provides an up-to-date list of Microsoft Office downloads for Mac along with support documentation for Mac admins, replacing the retired [**www.macadmins.software**](https://macadmins.software). Special thanks to [**Paul Bowden**](https://github.com/pbowden-msft) for his contributions to the Mac Admins community. We encourage active community involvement to keep this resource current.
 
 
 ## <img src="images/Microsoft_Logo_512px.png" alt="Download Image" width="20"></a> **Microsoft Office Downloads**
@@ -28,11 +28,24 @@ November 25, 2024 @ 10:00 AM Eastern Time </sub> <br>
 | **Visual Studio Code Standalone Installer** | 1.95.3 | com.microsoft.VSCode | <a href="https://go.microsoft.com/fwlink/?linkid=2156837"><img src="images/Code_512x512x32.png" alt="Download Image" width="80"></a>|
 | **AutoUpdate Standalone Installer** | 4.76.24101387 | com.microsoft.autoupdate | <a href="https://go.microsoft.com/fwlink/?linkid=830196"><img src="images/autoupdate.png" alt="Download Image" width="80"></a>| 
 
-### <img src="images/Microsoft_Logo_512px.png" alt="Download Image" width="20"></a> **Release History**
-- [Microsoft 365, 2021, 2024 Update History](https://learn.microsoft.com/en-us/officeupdates/update-history-office-for-mac)
-
-### <img src="images/Microsoft_Logo_512px.png" alt="Download Image" width="20"></a> **Release Notes**
-- [Microsoft 365, 2021, 2024 Release Notes](https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac)
+<div style="display: flex; justify-content: center; align-items: center; text-align: center;">
+  <table style="border-collapse: collapse;">
+    <tr>
+      <td><strong>Release History</strong></td>
+      <td><strong>Release Notes</strong></td>
+    </tr>
+    <tr>
+      <td>
+        <img src="images/Microsoft_Logo_512px.png" alt="Download Image" width="20">
+        <a href="https://learn.microsoft.com/en-us/officeupdates/update-history-office-for-mac">Microsoft 365, 2021, 2024 Update History</a>
+      </td>
+      <td>
+        <img src="images/Microsoft_Logo_512px.png" alt="Download Image" width="20">
+        <a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac">Microsoft 365, 2021, 2024 Release Notes</a>
+      </td>
+    </tr>
+  </table>
+</div>
 
 
 | **Product Package** | **SHA256 Hash** |
@@ -77,9 +90,16 @@ A free tool designed to resolve issues with Microsoft Office apps on macOS, such
 
 ## **Microsoft Office Preference Keys**
 
-PLIST (Property List) files are used by macOS to store settings and preferences for apps, services, and system configurations, enabling Mac admins to customize deployments, enforce policies, and manage application behavior efficiently."
+PLIST (Property List) files are used by macOS to store settings and preferences for apps, services, and system configurations, enabling Mac admins to customize deployments, enforce policies, and manage application behavior efficiently.
 - **Mac Admin Community Driven List**: [View Google Doc](https://docs.google.com/spreadsheets/d/1ESX5td0y0OP3jdzZ-C2SItm-TUi-iA_bcHCBvaoCumw/edit?gid=0#gid=0)
 - **Microsoft Documentation**: [View Documentation](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/deploy-preferences-for-office-for-mac)
+
+## **Helpful Links**
+
+Below are a list of helpful links.
+- **Microsoft Versioning Shenanigans**: [View Link](https://macmule.com/2018/09/24/microsoft-office-for-mac-changes-versioning-shenanigans/)
+- **Microsoft Deployment Options**: [View Link](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/deployment-options-for-office-for-mac)
+- **Microsoft Deploy From App Store**: [View Link](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/deploy-mac-app-store)
 
 ## **Trademarks**
 
