@@ -16,20 +16,20 @@ November 25, 2024 @ 10:00 AM Eastern Time
 | **Microsoft 365 and Office 2021 Suite Installer**<br>(Includes Word, Excel, PowerPoint, Outlook, OneNote, OneDrive, and MAU) | 16.91.24111020 | com.microsoft.word | <a href="https://go.microsoft.com/fwlink/?linkid=525133"><img src="images/suite.png" alt="Download Image" width="80"></a> |
 | **Microsoft 365 BusinessPro Suite Installer**<br>(Includes Word, Excel, PowerPoint, Outlook, OneNote, OneDrive, Teams, Defender Shim, and MAU) | 16.91.24111020 | com.microsoft.word | <a href="https://go.microsoft.com/fwlink/?linkid=2009112"><img src="images/suite.png" alt="Download Image" width="80"></a> |
 | **Word 365/2021 Standalone Installer** | 16.91.24111020 | com.microsoft.word | <a href="https://go.microsoft.com/fwlink/?linkid=525134"><img src="images/MSWD_512x512x32.png" alt="Download Image" width="80"></a> |
-| **Excel 365/2021 Standalone Installer** | 16.91.24111020 | com.microsoft.excel | [Download](https://go.microsoft.com/fwlink/?linkid=525135) |
-| **PowerPoint 365/2021 Standalone Installer** | 16.91.24111020 | com.microsoft.powerpoint | [Download](https://go.microsoft.com/fwlink/?linkid=525136) |
-| **Outlook 365/2021 Standalone Installer (Weekly)** | 16.91.24111020 | com.microsoft.outlook | [Download](https://go.microsoft.com/fwlink/?linkid=525137) |
-| **Outlook 365/2021 Standalone Installer (Monthly)** | 16.91.24111613 | com.microsoft.outlook | [Download](https://go.microsoft.com/fwlink/?linkid=2228621) |
-| **OneNote 365/2021 Standalone Installer** | 16.91.24111613 | com.microsoft.onenote.mac | [Download](https://go.microsoft.com/fwlink/?linkid=820886) |
-| **OneDrive Standalone Installer** | 24211.1020.0001 | com.microsoft.OneDrive | [Download](https://go.microsoft.com/fwlink/?linkid=823060) |
-| **Skype for Business Standalone Installer** | 16.30.32 | com.microsoft.SkypeForBusiness | [Download](https://go.microsoft.com/fwlink/?linkid=832978) |
-| **Teams Standalone Installer** | 24295.606.3238.6194 | com.microsoft.teams2 | [Download](https://go.microsoft.com/fwlink/?linkid=2249065) |
-| **InTune Company Portal Standalone Installer (Universal)** | 5.2409.1 | com.microsoft.package.Microsoft_AutoUpdate.app | [Download](https://go.microsoft.com/fwlink/?linkid=853070) |
-| **Edge Standalone Installer (Stable Channel)** | 131.0.2903.63 | com.microsoft.edgemac | [Download](https://go.microsoft.com/fwlink/?linkid=2093504) |
-| **Defender Standalone Installer** | 101.24092.0004 | com.microsoft.wdav | [Download](https://go.microsoft.com/fwlink/?linkid=2097502) |
-| **Windows App Standalone Installer (Formerly Remote Desktop)** | 4.76.24101387 | com.microsoft.autoupdate | [Download](https://go.microsoft.com/fwlink/?linkid=868963) |
-| **Visual Studio Code Standalone Installer** | 1.95.3 | com.microsoft.VSCode | [Download](https://go.microsoft.com/fwlink/?linkid=2156837) |
-| **AutoUpdate Standalone Installer** | 4.76.24101387 | com.microsoft.autoupdate | [Download](https://go.microsoft.com/fwlink/?linkid=830196) | 
+| **Excel 365/2021 Standalone Installer** | 16.91.24111020 | com.microsoft.excel | <a href="https://go.microsoft.com/fwlink/?linkid=525135"><img src="images/XCEL_512x512x32.png" alt="Download Image" width="80"></a> |
+| **PowerPoint 365/2021 Standalone Installer** | 16.91.24111020 | com.microsoft.powerpoint | <a href="https://go.microsoft.com/fwlink/?linkid=525136"><img src="images/PPT3_512x512x32.png" alt="Download Image" width="80"></a> |
+| **Outlook 365/2021 Standalone Installer (Weekly)** | 16.91.24111020 | com.microsoft.outlook | <a href="https://go.microsoft.com/fwlink/?linkid=525137"><img src="images/Outlook_512x512x32.png" alt="Download Image" width="80"></a>|
+| **Outlook 365/2021 Standalone Installer (Monthly)** | 16.91.24111613 | com.microsoft.outlook | <a href="https://go.microsoft.com/fwlink/?linkid=2228621"><img src="images/Outlook_512x512x32.png" alt="Download Image" width="80"></a>|
+| **OneNote 365/2021 Standalone Installer** | 16.91.24111613 | com.microsoft.onenote.mac | <a href="https://go.microsoft.com/fwlink/?linkid=820886"><img src="images/OneNote_512x512x32.png" alt="Download Image" width="80"></a> |
+| **OneDrive Standalone Installer** | 24211.1020.0001 | com.microsoft.OneDrive | <a href="https://go.microsoft.com/fwlink/?linkid=823060"><img src="images/OneDrive_512x512x32.png" alt="Download Image" width="80"></a> |
+| **Skype for Business Standalone Installer** | 16.30.32 | com.microsoft.SkypeForBusiness | <a href="https://go.microsoft.com/fwlink/?linkid=832978"><img src="images/skype_for_buiness_512x512.png" alt="Download Image" width="80"></a> |
+| **Teams Standalone Installer** | 24295.606.3238.6194 | com.microsoft.teams2 | <a href="https://go.microsoft.com/fwlink/?linkid=2249065"><img src="images/teams_512x512x32.png" alt="Download Image" width="80"></a> |
+| **InTune Company Portal Standalone Installer (Universal)** | 5.2409.1 | com.microsoft.package.Microsoft_AutoUpdate.app | <a href="https://go.microsoft.com/fwlink/?linkid=853070"><img src="images/companyportal.png" alt="Download Image" width="80"></a> |
+| **Edge Standalone Installer (Stable Channel)** | 131.0.2903.63 | com.microsoft.edgemac | <a href="https://go.microsoft.com/fwlink/?linkid=2093504"><img src="images/edge_app.png" alt="Download Image" width="80"></a>|
+| **Defender Standalone Installer** | 101.24092.0004 | com.microsoft.wdav | <a href="https://go.microsoft.com/fwlink/?linkid=2097502"><img src="images/defender_512x512x32.png" alt="Download Image" width="80"></a> |
+| **Windows App Standalone Installer (Formerly Remote Desktop)** | 4.76.24101387 | com.microsoft.autoupdate | <a href="https://go.microsoft.com/fwlink/?linkid=868963"><img src="images/windowsapp.png" alt="Download Image" width="80"></a> |
+| **Visual Studio Code Standalone Installer** | 1.95.3 | com.microsoft.VSCode | <a href="https://go.microsoft.com/fwlink/?linkid=2156837"><img src="images/Code_512x512x32.png" alt="Download Image" width="80"></a>|
+| **AutoUpdate Standalone Installer** | 4.76.24101387 | com.microsoft.autoupdate | <a href="https://go.microsoft.com/fwlink/?linkid=830196"><img src="images/autoupdate.png" alt="Download Image" width="80"></a>| 
 
 | **Product Package** | **SHA256 Hash** |
 |----------------------|------------------|
