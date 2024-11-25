@@ -68,7 +68,7 @@ November 25, 2024 @ 10:00 AM Eastern Time
 ### **<img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25"> [Office-Reset.com](https://office-reset.com)<img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25">**  
 A free tool designed to resolve issues with Microsoft Office apps on macOS, such as crashes, performance issues, and template corruption.  
 
-- **Office Reset Packages**: [View Repository](/office_reset_pkgs/)  
+- **Office Reset Packages**: [View Packages](/office_reset_pkgs/)  
   *These packages are a backup copy from Office Reset. They are no longer updated.*  
 
 - **Office Reset Scripts**: [View Scripts](/office_reset_scripts/)  
