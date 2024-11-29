@@ -3,12 +3,12 @@
 This repository provides an up-to-date list of Microsoft Office downloads for Mac along with support documentation for Mac admins, replacing the retired [**www.macadmins.software**](https://macadmins.software). Special thanks to [**Paul Bowden**](https://github.com/pbowden-msft) for his contributions to the Mac Admins community. We encourage active community involvement to keep this resource current.
 
 
-## <img src="images/Microsoft_Logo_512px.png" alt="Download Image" width="20"></a> Microsoft Office Downloads
+## <img src="images/Microsoft_Logo_512px.png" alt="Download Image" width="20"></a> Microsoft Office Installers
 
 <sub>All links below direct to Microsoft's official Content Delivery Network (CDN).</sub>
 <sub>The links provided will always download the latest version offered by Microsoft. However, the version information listed below reflects the version available at the time of this update.</sub>
 
-<sub>_Last Updated: November 29, 2024 @ 11:00 AM Eastern Time_ </sub> <br>
+<sub>_Last Updated: November 29, 2024 @ 11:00 AM Eastern Time_ </sub>
 
 | **Product Package** | **CFBundle Version** | **CFBundle Identifier** | **Download** |
 |----------------------|----------------------|--------------------------|--------------|
@@ -17,8 +17,8 @@ This repository provides an up-to-date list of Microsoft Office downloads for Ma
 | **Word** <sup>365/2021/2024</sup> **</sup> Standalone Installer** | 16.91.24111020 | com.microsoft.word | <a href="https://go.microsoft.com/fwlink/?linkid=525134"><img src="images/MSWD_512x512x32.png" alt="Download Image" width="80"></a> |
 | **Excel** <sup>365/2021/2024</sup> **Standalone Installer** | 16.91.24111020 | com.microsoft.excel | <a href="https://go.microsoft.com/fwlink/?linkid=525135"><img src="images/XCEL_512x512x32.png" alt="Download Image" width="80"></a> |
 | **PowerPoint** <sup>365/2021/2024</sup> **Standalone Installer** | 16.91.24111020 | com.microsoft.powerpoint | <a href="https://go.microsoft.com/fwlink/?linkid=525136"><img src="images/PPT3_512x512x32.png" alt="Download Image" width="80"></a> |
-| **Outlook** <sup>365/2021/2024</sup> **Standalone Installer**<br><sub>_(Weekly Channel)_</sub>| 16.91.24111020 | com.microsoft.outlook | <a href="https://go.microsoft.com/fwlink/?linkid=525137"><img src="images/Outlook_512x512x32.png" alt="Download Image" width="80"></a>|
-| **Outlook** <sup>365/2021/2024</sup> **Standalone Installer**<br><sub>_(Monthly Channel)_</sub>| 16.91.24111613 | com.microsoft.outlook | <a href="https://go.microsoft.com/fwlink/?linkid=2228621"><img src="images/Outlook_512x512x32.png" alt="Download Image" width="80"></a>|
+| **Outlook** <sup>365/2021/2024</sup> **Standalone Installer**<sup>_(Weekly Channel)_</sup>| 16.91.24111020 | com.microsoft.outlook | <a href="https://go.microsoft.com/fwlink/?linkid=525137"><img src="images/Outlook_512x512x32.png" alt="Download Image" width="80"></a>|
+| **Outlook** <sup>365/2021/2024</sup> **Standalone Installer**<sup>_(Monthly Channel)_</sup>| 16.91.24111613 | com.microsoft.outlook | <a href="https://go.microsoft.com/fwlink/?linkid=2228621"><img src="images/Outlook_512x512x32.png" alt="Download Image" width="80"></a>|
 | **OneNote** <sup>365/2021/2024</sup> **Standalone Installer** | 16.91.24111613 | com.microsoft.onenote.mac | <a href="https://go.microsoft.com/fwlink/?linkid=820886"><img src="images/OneNote_512x512x32.png" alt="Download Image" width="80"></a> |
 | **OneDrive Standalone Installer**<br><a href="https://support.microsoft.com/en-us/office/onedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0#OSVersion=Mac" style="text-decoration: none;"><small>_Release Notes_</small></a> | 24211.1020.0001 | com.microsoft.OneDrive | <a href="https://go.microsoft.com/fwlink/?linkid=823060"><img src="images/OneDrive_512x512x32.png" alt="Download Image" width="80"></a> |
 | **Skype for Business Standalone Installer**<br><a href="https://support.microsoft.com/en-us/office/follow-the-latest-updates-in-skype-for-business-cece9f93-add1-4d93-9a38-56cc598e5781?ui=en-us&rs=en-us&ad=us" style="text-decoration: none;"><small>_Release Notes_</small></a>  | 16.31.11 | com.microsoft.SkypeForBusiness | <a href="https://go.microsoft.com/fwlink/?linkid=832978"><img src="images/skype_for_buiness_512x512.png" alt="Download Image" width="80"></a> |
@@ -30,26 +30,19 @@ This repository provides an up-to-date list of Microsoft Office downloads for Ma
 | **Visual Studio Code Standalone Installer**<br><a href="https://code.visualstudio.com/updates/" style="text-decoration: none;"><small>_Release Notes_</small></a>  | 1.95.3 | com.microsoft.VSCode | <a href="https://go.microsoft.com/fwlink/?linkid=2156837"><img src="images/Code_512x512x32.png" alt="Download Image" width="80"></a>|
 | **AutoUpdate Standalone Installer**<br><a href="https://learn.microsoft.com/en-us/officeupdates/release-history-microsoft-autoupdate" style="text-decoration: none;"><small>_Release Notes_</small></a>  | 4.76.24101387 | com.microsoft.autoupdate | <a href="https://go.microsoft.com/fwlink/?linkid=830196"><img src="images/autoupdate.png" alt="Download Image" width="80"></a>| 
 
+<sup>_*For any items lacking release notes, please refer to the release notes for the suite._</sup>
 
-
-<div style="display: flex; justify-content: center; align-items: center; text-align: center;">
-  <table style="border-collapse: collapse;">
-    <tr>
-      <td><strong>Release History</strong></td>
-      <td><strong>Release Notes</strong></td>
-    </tr>
-    <tr>
-      <td>
-        <img src="images/Microsoft_Logo_512px.png" alt="Download Image" width="20">
-        <a href="https://learn.microsoft.com/en-us/officeupdates/update-history-office-for-mac">Microsoft 365, 2021, 2024 Update History</a>
-      </td>
-      <td>
-        <img src="images/Microsoft_Logo_512px.png" alt="Download Image" width="20">
-        <a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac">Microsoft 365, 2021, 2024 Release Notes</a>
-      </td>
-    </tr>
-  </table>
+<div align="center">
+  <div>
+    <img src="images/Microsoft_Logo_512px.png" alt="Download Image" width="20"> 
+    <a href="https://learn.microsoft.com/en-us/officeupdates/update-history-office-for-mac">Microsoft 365/2021/2024 Update History</a>
+  </div>
+  <div>
+    <img src="images/Microsoft_Logo_512px.png" alt="Download Image" width="20"> 
+    <a href="https://learn.microsoft.com/en-us/officeupdates/update-history-office-for-mac">Microsoft Update Channels</a>
+  </div>
 </div>
+<br>
 
 | **Product Package** | **Link** | **SHA256 Hash** |
 |----------------------|----------|------------------|
@@ -58,8 +51,8 @@ This repository provides an up-to-date list of Microsoft Office downloads for Ma
 | **Word** <sup>365/2021/2024</sup> **Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=525134"><img src="images/MSWD_512x512x32.png" alt="Download Image" width="40"></a> | 7fab22d0a3304d2bd1fc9019c7e0481c637e44892e20500de72244feef191e9e |
 | **Excel** <sup>365/2021/2024</sup> **Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=525135"><img src="images/XCEL_512x512x32.png" alt="Download Image" width="40"></a> | 30f65ea8b0c591e53ad6e22e0fff5de3e09197ddbef3729bb96fee6a2655d8de |
 | **PowerPoint** <sup>365/2021/2024</sup> **Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=525136"><img src="images/PPT3_512x512x32.png" alt="Download Image" width="40"></a> | 1b2bac9fd9981bcd6729c737f5946b540fabac75c1a5946b1a32901304a0c20f |
-| **Outlook** <sup>365/2021/2024</sup> **Standalone Installer <sub>(Weekly)</sub>** | <a href="https://go.microsoft.com/fwlink/?linkid=525137"><img src="images/Outlook_512x512x32.png" alt="Download Image" width="40"></a> | 48c1ddd66aff35d4191117b3dcc5ea2e5aeafe59346c36f48ebfd9724c0c2bfc |
-| **Outlook** <sup>365/2021/2024</sup> **Standalone Installer <sub>(Monthly)</sub>** | <a href="https://go.microsoft.com/fwlink/?linkid=2228621"><img src="images/Outlook_512x512x32.png" alt="Download Image" width="40"></a> | ca1ddefe1b437437d5d870ce919cb509031564cbe7aa0b792af7705d4599fb8c |
+| **Outlook** <sup>365/2021/2024</sup> **Standalone Installer** <sup>_(Weekly Channel)_</sup> | <a href="https://go.microsoft.com/fwlink/?linkid=525137"><img src="images/Outlook_512x512x32.png" alt="Download Image" width="40"></a> | 48c1ddd66aff35d4191117b3dcc5ea2e5aeafe59346c36f48ebfd9724c0c2bfc |
+| **Outlook** <sup>365/2021/2024</sup> **Standalone Installer** <sup>_(Monthly Channel)_</sup> | <a href="https://go.microsoft.com/fwlink/?linkid=2228621"><img src="images/Outlook_512x512x32.png" alt="Download Image" width="40"></a> | ca1ddefe1b437437d5d870ce919cb509031564cbe7aa0b792af7705d4599fb8c |
 | **OneNote** <sup>365/2021/2024</sup> **Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=820886"><img src="images/OneNote_512x512x32.png" alt="Download Image" width="40"></a> | d06ed77926075074c53e63b64534d4c6d0812cfb83b267412ee66350a980f5b5 |
 | **OneDrive Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=823060"><img src="images/OneDrive_512x512x32.png" alt="Download Image" width="40"></a> | 52feb5a94c66bd99b805da95b7c84f741535b5e4c71b9d26db31db30a95da233 |
 | **Skype for Business Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=832978"><img src="images/skype_for_buiness_512x512.png" alt="Download Image" width="40"></a> | 81f484842e86a39c9f33abc4d35b4e7dbb87189ca3c424a6396e15d96ea2dbd5 |
@@ -71,19 +64,18 @@ This repository provides an up-to-date list of Microsoft Office downloads for Ma
 | **Visual Studio Code Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2156837"><img src="images/Code_512x512x32.png" alt="Download Image" width="40"></a> | 2b7788d17d2e0f3ac1fc684b126fa3739403fd2cdcd97e92ddcb738619f04aa9 |
 | **AutoUpdate Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=830196"><img src="images/autoupdate.png" alt="Download Image" width="40"></a> | 91fed0b500d85daf6e453bb7b2bee2948973781475c118c03c837e819a290fcc |
 
-
-<sub>_[**How to Get the SHA256**](/guides/How_To_SHA256.md)_</sub>
+<sup>_[**How to Get the SHA256 Guide**](/guides/How_To_SHA256.md)_</sup>
 
 ## **Microsoft Office Repair Tools** 
 
-### **<img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25"> [Office-Reset.com](https://office-reset.com)<img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25">**  
-A free tool designed to resolve issues with Microsoft Office apps on macOS, such as crashes, performance issues, and template corruption.  
+### **<img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25"> [Office-Reset.com](https://office-reset.com/macadmins/)<img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25">**
+- A free tool to resolve issues with Microsoft Office apps on macOS, such as crashes and performance problems. It offers various packages for resetting settings and clearing cache. **_⚠️ No Longer Updated/Maintained ⚠️_**
 
-- **Office Reset Packages**: [View Packages](/office_reset_pkgs/)  
-  *These packages are a backup copy from Office-Reset.com. They are no longer updated by the developer.*  
+### **<img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25"> [Office-Reset Packages](/office_reset_pkgs/)<img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25">**
+- These packages are archived copies saved to this repository from Office-Reset.com. **_⚠️ No Longer Updated/Maintained ⚠️_**
 
-- **Office Reset Scripts**: [View Scripts](/office_reset_scripts/)  
-  *These scripts are copied from the original packages from office-reset.com, allowing users to fork this repository and update them as needed.*  
+### **[Office Reset Scripts](/office_reset_scripts/)**  
+- These scripts are copied from the original packages on office-reset.com, allowing users to fork this repository and update them as needed. **_♥️ Needs More Community Contributions ♥️_**
 
 ## **Microsoft Scripts**
 - **Download & Install Microsoft Products**: [View Script](https://gist.github.com/talkingmoose/b6637160b65b751824943ede022daa17) by [TalkingMoose](https://gist.github.com/talkingmoose) <img src="https://github.com/talkingmoose.png" alt="TalkingMoose's Profile Picture" width="25" style="border-radius: 50%; vertical-align: middle;">
