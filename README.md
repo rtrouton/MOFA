@@ -1,6 +1,8 @@
 # **Mac Admins Microsoft**
 
-This repository provides an up-to-date list of Microsoft Office downloads for MacOS along with support documentation for Mac admins, replacing the retired [**www.macadmins.software**](https://macadmins.software). Special thanks to [**Paul Bowden**](https://github.com/pbowden-msft) for his contributions to the Mac Admins community. We encourage active community involvement to keep this resource current.
+This repository provides a centralized and up-to-date resource for Microsoft Office downloads on macOS, along with detailed support documentation for Mac administrators, stepping in to replace the now-defunct [**MacAdmins.software**](https://macadmins.software). A special thanks to [**Paul Bowden**](https://github.com/pbowden-msft) for his exceptional contributions to the Mac Admins community.  
+
+We welcome and encourage community engagement! Feel free to fork this repository, ask questions, or contribute additional information to ensure it remains accurate and valuable for everyone. Together, we can keep this resource thriving!
 
 
 ## <img src="images/Microsoft_Logo_512px.png" alt="Download Image" width="20"></a> Microsoft Office Installers
