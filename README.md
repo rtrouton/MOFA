@@ -1,6 +1,6 @@
 # **Mac Admins Microsoft**
 
-This repository provides an up-to-date list of Microsoft Office downloads for Mac along with support documentation for Mac admins, replacing the retired [**www.macadmins.software**](https://macadmins.software). Special thanks to [**Paul Bowden**](https://github.com/pbowden-msft) for his contributions to the Mac Admins community. We encourage active community involvement to keep this resource current.
+This repository provides an up-to-date list of Microsoft Office downloads for MacOS along with support documentation for Mac admins, replacing the retired [**www.macadmins.software**](https://macadmins.software). Special thanks to [**Paul Bowden**](https://github.com/pbowden-msft) for his contributions to the Mac Admins community. We encourage active community involvement to keep this resource current.
 
 
 ## <img src="images/Microsoft_Logo_512px.png" alt="Download Image" width="20"></a> Microsoft Office Installers
@@ -66,23 +66,24 @@ This repository provides an up-to-date list of Microsoft Office downloads for Ma
 
 <sup>_[**How to Get the SHA256 Guide**](/guides/How_To_SHA256.md)_</sup>
 
-## **Microsoft Office Repair Tools** 
+## **Microsoft Office Repair Tools**
 
 ### **<img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25"> [Office-Reset.com](https://office-reset.com/macadmins/)<img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25">**
-- A free tool to resolve issues with Microsoft Office apps on macOS, such as crashes and performance problems. It offers various packages for resetting settings and clearing cache. **_⚠️ No Longer Updated/Maintained ⚠️_**
+- A free tool to fix issues with Microsoft Office apps on macOS (e.g., crashes, performance problems). It offers various packages for resetting settings and clearing cache. **_⚠️ No Longer Updated/Maintained ⚠️_**
 
 ### **<img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25"> [Office-Reset Packages](/office_reset_pkgs/)<img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25">**
-- These packages are archived copies saved to this repository from Office-Reset.com. **_⚠️ No Longer Updated/Maintained ⚠️_**
+- Archived copies of the original Office-Reset packages, now saved to this repository. **_⚠️ No Longer Updated/Maintained ⚠️_**
 
-### **[Office Reset Scripts](/office_reset_scripts/)**  
-- These scripts are copied from the original packages on office-reset.com, allowing users to fork this repository and update them as needed. **_♥️ Needs More Community Contributions ♥️_**
+### **🛠️ [Office Reset Scripts](/office_reset_scripts/) 🛠️**
+- Fork and update these scripts from the original packages on office-reset.com. **_♥️ Needs More Community Contributions ♥️_**
 
 ## **Microsoft Scripts**
+
 - **Download & Install Microsoft Products**: [View Script](https://gist.github.com/talkingmoose/b6637160b65b751824943ede022daa17) by [TalkingMoose](https://gist.github.com/talkingmoose) <img src="https://github.com/talkingmoose.png" alt="TalkingMoose's Profile Picture" width="25" style="border-radius: 50%; vertical-align: middle;">
-  - This script automates downloading and installing the latest Microsoft products using the direct links and sha256 (not required)
-    
-- **Installomator**: [View Script](https://github.com/Installomator/Installomator) by [Installomator](https://github.com/Installomator) <img src="https://github.com/Installomator.png" alt="TalkingMoose's Profile Picture" width="25" style="border-radius: 50%; vertical-align: middle;">
-  - Automate the deployment of Microsoft Office products with Installomator, simplifying downloads, installations, and updates for macOS devices
+  - This script automates the downloading and installation of the latest Microsoft products using direct links and optional SHA256 verification for added security.
+
+- **Installomator**: [View Script](https://github.com/Installomator/Installomator) by [Installomator](https://github.com/Installomator) <img src="https://github.com/Installomator.png" alt="Installomator's Profile Picture" width="25" style="border-radius: 50%; vertical-align: middle;">
+  - A powerful tool to automate the deployment of Microsoft Office products on macOS, streamlining the processes of downloading, installing, and updating software.
 
 ## **Microsoft Office Preference Keys**
 
