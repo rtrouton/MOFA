@@ -1,4 +1,4 @@
-# **Mac Admins Microsoft**
+<h1 style="text-align: center;">Mac Admins Microsoft</h1>
 
 This repository provides a centralized and up-to-date resource for Microsoft Office downloads on macOS, along with detailed support documentation for Mac administrators, stepping in to replace the now-defunct [**MacAdmins.software**](https://macadmins.software). A special thanks to [**Paul Bowden**](https://github.com/pbowden-msft) for his exceptional contributions to the Mac Admins community.  
 
@@ -34,16 +34,10 @@ We welcome and encourage community engagement! Feel free to fork this repository
 
 <sup>_*For any items lacking release notes, please refer to the release notes for the suite._</sup>
 
-<div align="center">
-  <div>
-    <img src="images/Microsoft_Logo_512px.png" alt="Download Image" width="20"> 
-    <a href="https://learn.microsoft.com/en-us/officeupdates/update-history-office-for-mac">Microsoft 365/2021/2024 Update History</a>
-  </div>
-  <div>
-    <img src="images/Microsoft_Logo_512px.png" alt="Download Image" width="20"> 
-    <a href="https://learn.microsoft.com/en-us/officeupdates/update-history-office-for-mac">Microsoft Update Channels</a>
-  </div>
-</div>
+|      Update History                   |          Microsoft Update Channels               |
+|-------------------------|-------------------------|
+| <img src="images/Microsoft_Logo_512px.png" alt="Download Image" width="20"> [Microsoft 365/2021/2024](https://learn.microsoft.com/en-us/officeupdates/update-history-office-for-mac) | <img src="images/Microsoft_Logo_512px.png" alt="Download Image" width="20">  [Microsoft 365 Apps](https://learn.microsoft.com/en-us/microsoft-365-apps/updates/overview-update-channels) |
+
 <br>
 
 | **Product Package** | **Link** | **SHA256 Hash** |
@@ -68,21 +62,21 @@ We welcome and encourage community engagement! Feel free to fork this repository
 
 <sup>_[**How to Get the SHA256 Guide**](/guides/How_To_SHA256.md)_</sup>
 
-## **Microsoft Office Repair Tools**
+## **<img src="images/repair.png" alt="Repair Image" width="20"></a> Microsoft Office Repair Tools <img src="images/repair.png" alt="Repair Image" width="20"></a>**
 
 ### **<img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25"> [Office-Reset.com](https://office-reset.com/macadmins/)<img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25">**
 - A free tool to fix issues with Microsoft Office apps on macOS (e.g., crashes, performance problems). It offers various packages for resetting settings and clearing cache.
-<br>**_⚠️ No Longer Updated/Maintained ⚠️_**
+<br>**_<img src="images/warning.png" alt="Warning Logo" width="25"> No Longer Updated/Maintained <img src="images/warning.png" alt="Warning Logo" width="25">_**
 
-### **<img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25"> [Office-Reset Packages](/office_reset_pkgs/)<img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25">**
+### **<img src="images/pkg-icon.png" alt="Pkg Logo" width="25"> [Office-Reset Packages](/office_reset_pkgs/)<img src="images/pkg-icon.png" alt="Pkg Logo" width="25">**
 - Archived copies of the original Office-Reset packages, now saved to this repository.
-<br>**_⚠️ No Longer Updated/Maintained ⚠️_**
+<br>**_<img src="images/warning.png" alt="Warning Logo" width="25"> No Longer Updated/Maintained <img src="images/warning.png" alt="Warning Logo" width="25">_**
 
-### **🛠️ [Office Reset Scripts](/office_reset_scripts/) 🛠️**
+### **<img src="images/repair.png" alt="Repair Image" width="20"></a> [Office Reset Scripts](/office_reset_scripts/) <img src="images/repair.png" alt="Repair Image" width="20"></a>**
 - Fork and update these scripts from the original packages on office-reset.com.
-<br>**_♥️ Needs More Community Contributions ♥️_**
+<br>**_<img src="images/community.png" alt="Community Logo" width="25"> Needs More Community Contributions <img src="images/community.png" alt="Community Logo" width="25">_**
 
-## **Microsoft Scripts**
+## **<img src="images/script.png" alt="Script Image" width="20"></a> Microsoft Scripts <img src="images/script.png" alt="Script Image" width="20"></a>**
 
 - **Download & Install Microsoft Products**: [View Script](https://gist.github.com/talkingmoose/b6637160b65b751824943ede022daa17) by [TalkingMoose](https://gist.github.com/talkingmoose) <img src="https://github.com/talkingmoose.png" alt="TalkingMoose's Profile Picture" width="25" style="border-radius: 50%; vertical-align: middle;">
   - This script automates the downloading and installation of the latest Microsoft products using direct links and optional SHA256 verification for added security.
