@@ -71,13 +71,16 @@ We welcome and encourage community engagement! Feel free to fork this repository
 ## **Microsoft Office Repair Tools**
 
 ### **<img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25"> [Office-Reset.com](https://office-reset.com/macadmins/)<img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25">**
-- A free tool to fix issues with Microsoft Office apps on macOS (e.g., crashes, performance problems). It offers various packages for resetting settings and clearing cache. **_⚠️ No Longer Updated/Maintained ⚠️_**
+- A free tool to fix issues with Microsoft Office apps on macOS (e.g., crashes, performance problems). It offers various packages for resetting settings and clearing cache.
+<br>**_⚠️ No Longer Updated/Maintained ⚠️_**
 
 ### **<img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25"> [Office-Reset Packages](/office_reset_pkgs/)<img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25">**
-- Archived copies of the original Office-Reset packages, now saved to this repository. **_⚠️ No Longer Updated/Maintained ⚠️_**
+- Archived copies of the original Office-Reset packages, now saved to this repository.
+<br>**_⚠️ No Longer Updated/Maintained ⚠️_**
 
 ### **🛠️ [Office Reset Scripts](/office_reset_scripts/) 🛠️**
-- Fork and update these scripts from the original packages on office-reset.com. **_♥️ Needs More Community Contributions ♥️_**
+- Fork and update these scripts from the original packages on office-reset.com.
+<br>**_♥️ Needs More Community Contributions ♥️_**
 
 ## **Microsoft Scripts**
 
