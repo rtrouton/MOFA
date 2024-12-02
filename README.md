@@ -79,8 +79,11 @@ We welcome and encourage community engagement! Feel free to fork this repository
 
 These scripts automate the process of downloading, installing, updating, and managing Microsoft products.
 
-- **Download & Install Microsoft Products**: [View Script](https://gist.github.com/talkingmoose/b6637160b65b751824943ede022daa17) by [TalkingMoose](https://gist.github.com/talkingmoose)  
+- **Download & Install Microsoft Products**: [View Script](https://gist.github.com/talkingmoose/b6637160b65b751824943ede022daa17) by [TalkingMoose](https://github.com/talkingmoose)  
   This script automates the downloading and installation of the latest Microsoft products using direct links and includes optional SHA256 verification for added security.
+
+- **Install Office 365 Pro**: [View Script](https://github.com/microsoft/shell-intune-samples/blob/master/macOS/Apps/Office%20for%20Mac/installOffice365Pro.sh) by [Microsoft](https://github.com/microsoft)  
+  This script automates the downloading and installation of the Office 365 Pro.
 
 - **Installomator**: [View Script](https://github.com/Installomator/Installomator) by [Installomator](https://github.com/Installomator)  
   A powerful tool for automating the deployment of Microsoft Office products on macOS, simplifying downloading, installation, and updates.
