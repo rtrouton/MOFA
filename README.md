@@ -1,4 +1,5 @@
-<h1 style="text-align: center;">Mac Admins Microsoft</h1>
+# **Mac Admins Microsoft**
+
 
 This repository provides a centralized and up-to-date resource for Microsoft Office downloads on macOS, along with detailed support documentation for Mac administrators, stepping in to replace the now-defunct [**MacAdmins.software**](https://macadmins.software). A special thanks to [**Paul Bowden**](https://github.com/pbowden-msft) for his exceptional contributions to the Mac Admins community.  
 
@@ -78,17 +79,19 @@ We welcome and encourage community engagement! Feel free to fork this repository
 
 ## **<img src="images/script.png" alt="Script Image" width="20"></a> Microsoft Scripts <img src="images/script.png" alt="Script Image" width="20"></a>**
 
-- **Download & Install Microsoft Products**: [View Script](https://gist.github.com/talkingmoose/b6637160b65b751824943ede022daa17) by [TalkingMoose](https://gist.github.com/talkingmoose) <img src="https://github.com/talkingmoose.png" alt="TalkingMoose's Profile Picture" width="25" style="border-radius: 50%; vertical-align: middle;">
+- **Download & Install Microsoft Products**: [View Script](https://gist.github.com/talkingmoose/b6637160b65b751824943ede022daa17) by [TalkingMoose](https://gist.github.com/talkingmoose) 
   - This script automates the downloading and installation of the latest Microsoft products using direct links and optional SHA256 verification for added security.
 
-- **Installomator**: [View Script](https://github.com/Installomator/Installomator) by [Installomator](https://github.com/Installomator) <img src="https://github.com/Installomator.png" alt="Installomator's Profile Picture" width="25" style="border-radius: 50%; vertical-align: middle;">
+- **Installomator**: [View Script](https://github.com/Installomator/Installomator) by [Installomator](https://github.com/Installomator)
   - A powerful tool to automate the deployment of Microsoft Office products on macOS, streamlining the processes of downloading, installing, and updating software.
 
 ## **Microsoft Office Preference Keys**
 
 PLIST (Property List) files are used by macOS to store settings and preferences for apps, services, and system configurations, enabling Mac admins to customize deployments, enforce policies, and manage application behavior efficiently.
-- **Mac Admin Community Driven List**: [View Google Doc](https://docs.google.com/spreadsheets/d/1ESX5td0y0OP3jdzZ-C2SItm-TUi-iA_bcHCBvaoCumw/edit?gid=0#gid=0)
-- **Microsoft Documentation**: [View Documentation](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/deploy-preferences-for-office-for-mac)
+- **Mac Admin Community Office Plist**: [View Google Doc](https://docs.google.com/spreadsheets/d/1ESX5td0y0OP3jdzZ-C2SItm-TUi-iA_bcHCBvaoCumw/edit?gid=0#gid=0)
+- **Microsoft Plist Documentation**: [View Documentation](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/deploy-preferences-for-office-for-mac)
+
+_[**How to Plist Guide**](/guides/How_To_plist.md)_ - In Progress
 
 ## **Helpful Links**
 
