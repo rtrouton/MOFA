@@ -87,11 +87,25 @@ We welcome and encourage community engagement! Feel free to fork this repository
 
 ## **Microsoft Office Preference Keys**
 
-PLIST (Property List) files are used by macOS to store settings and preferences for apps, services, and system configurations, enabling Mac admins to customize deployments, enforce policies, and manage application behavior efficiently.
-- **Mac Admin Community Office Plist**: [View Google Doc](https://docs.google.com/spreadsheets/d/1ESX5td0y0OP3jdzZ-C2SItm-TUi-iA_bcHCBvaoCumw/edit?gid=0#gid=0)
-- **Microsoft Plist Documentation**: [View Documentation](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/deploy-preferences-for-office-for-mac)
+PLIST (Property List) files are used by macOS to store settings and preferences for apps, services, and system configurations, allowing Mac admins to:
 
-_[**How to Plist Guide**](/guides/How_To_plist.md)_ - In Progress
+- **Customize deployments**
+- **Enforce policies**
+- **Manage application behavior efficiently**
+
+For a detailed guide on how to create and manage PLIST files, refer to the [How to Plist Guide](/guides/How_To_plist.md).
+
+### **Recommended Resources:**
+
+#### **1. Mac Admin Community-Driven Preferences List (Highly Recommended!)**:
+- [View Google Doc](https://docs.google.com/spreadsheets/d/1ESX5td0y0OP3jdzZ-C2SItm-TUi-iA_bcHCBvaoCumw/edit?gid=0#gid=0)
+
+#### **2. Official Microsoft Documentation:**
+
+- [General PLIST Preferences](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/deploy-preferences-for-office-for-mac)  
+- [App-Specific Preferences](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/set-preference-per-app)  
+- [Outlook Preferences](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/preferences-outlook)  
+- [Office Suite Preferences](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/preferences-office)
 
 ## **Helpful Links**
 
