@@ -1,10 +1,8 @@
 # **Mac Admins Microsoft**
 
-
 This repository provides a centralized and up-to-date resource for Microsoft Office downloads on macOS, along with detailed support documentation for Mac administrators, stepping in to replace the now-defunct [**MacAdmins.software**](https://macadmins.software). A special thanks to [**Paul Bowden**](https://github.com/pbowden-msft) for his exceptional contributions to the Mac Admins community.  
 
 We welcome and encourage community engagement! Feel free to fork this repository, ask questions, or contribute additional information to ensure it remains accurate and valuable for everyone. Together, we can keep this resource thriving!
-
 
 ## <img src="images/Microsoft_Logo_512px.png" alt="Download Image" width="20"></a> Microsoft Office Installers
 
@@ -15,8 +13,8 @@ We welcome and encourage community engagement! Feel free to fork this repository
 
 | **Product Package** | **CFBundle Version** | **CFBundle Identifier** | **Download** |
 |----------------------|----------------------|--------------------------|--------------|
-| **Microsoft** <sup>365/2021/2024</sup> **and Office Suite Installer**<br><a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac" style="text-decoration: none;"><small>_Release Notes_</small></a><br><sub>_(Includes Word, Excel, PowerPoint, Outlook, OneNote, OneDrive, and MAU)_</sub> | 16.91.24111020 | com.microsoft.word | <a href="https://go.microsoft.com/fwlink/?linkid=525133"><img src="images/suite.png" alt="Download Image" width="80"></a> |
-| **Microsoft** <sup>365/2021/2024</sup> **BusinessPro Suite Installer**<br><sub>_(Includes Word, Excel, PowerPoint, Outlook, OneNote, OneDrive, Teams, Defender Shim, and MAU)_</sub> | 16.91.24111020 | com.microsoft.word | <a href="https://go.microsoft.com/fwlink/?linkid=2009112"><img src="images/suite.png" alt="Download Image" width="80"></a> |
+| **Microsoft** <sup>365/2021/2024</sup> **and Office Suite Installer**<br><a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac" style="text-decoration: none;"><small>_Release Notes_</small></a><br><sub>_(Includes Word, Excel, PowerPoint, Outlook, OneNote, OneDrive, and MAU)_</sub> | 16.91.24111020 | com.microsoft.office | <a href="https://go.microsoft.com/fwlink/?linkid=525133"><img src="images/suite.png" alt="Download Image" width="80"></a> |
+| **Microsoft** <sup>365/2021/2024</sup> **BusinessPro Suite Installer**<br><sub>_(Includes Word, Excel, PowerPoint, Outlook, OneNote, OneDrive, Teams, Defender Shim, and MAU)_</sub> | 16.91.24111020 | com.microsoft.office | <a href="https://go.microsoft.com/fwlink/?linkid=2009112"><img src="images/suite.png" alt="Download Image" width="80"></a> |
 | **Word** <sup>365/2021/2024</sup> **</sup> Standalone Installer** | 16.91.24111020 | com.microsoft.word | <a href="https://go.microsoft.com/fwlink/?linkid=525134"><img src="images/MSWD_512x512x32.png" alt="Download Image" width="80"></a> |
 | **Excel** <sup>365/2021/2024</sup> **Standalone Installer** | 16.91.24111020 | com.microsoft.excel | <a href="https://go.microsoft.com/fwlink/?linkid=525135"><img src="images/XCEL_512x512x32.png" alt="Download Image" width="80"></a> |
 | **PowerPoint** <sup>365/2021/2024</sup> **Standalone Installer** | 16.91.24111020 | com.microsoft.powerpoint | <a href="https://go.microsoft.com/fwlink/?linkid=525136"><img src="images/PPT3_512x512x32.png" alt="Download Image" width="80"></a> |
@@ -77,13 +75,18 @@ We welcome and encourage community engagement! Feel free to fork this repository
 - Fork and update these scripts from the original packages on office-reset.com.
 <br>**_<img src="images/community.png" alt="Community Logo" width="25"> Needs More Community Contributions <img src="images/community.png" alt="Community Logo" width="25">_**
 
-## **<img src="images/script.png" alt="Script Image" width="20"></a> Microsoft Scripts <img src="images/script.png" alt="Script Image" width="20"></a>**
+## **<img src="images/script.png" alt="Script Image" width="20"> Microsoft Scripts <img src="images/script.png" alt="Script Image" width="20">**
 
-- **Download & Install Microsoft Products**: [View Script](https://gist.github.com/talkingmoose/b6637160b65b751824943ede022daa17) by [TalkingMoose](https://gist.github.com/talkingmoose) 
-  - This script automates the downloading and installation of the latest Microsoft products using direct links and optional SHA256 verification for added security.
+These scripts automate the process of downloading, installing, updating, and managing Microsoft products.
 
-- **Installomator**: [View Script](https://github.com/Installomator/Installomator) by [Installomator](https://github.com/Installomator)
-  - A powerful tool to automate the deployment of Microsoft Office products on macOS, streamlining the processes of downloading, installing, and updating software.
+- **Download & Install Microsoft Products**: [View Script](https://gist.github.com/talkingmoose/b6637160b65b751824943ede022daa17) by [TalkingMoose](https://gist.github.com/talkingmoose)  
+  This script automates the downloading and installation of the latest Microsoft products using direct links and includes optional SHA256 verification for added security.
+
+- **Installomator**: [View Script](https://github.com/Installomator/Installomator) by [Installomator](https://github.com/Installomator)  
+  A powerful tool for automating the deployment of Microsoft Office products on macOS, simplifying downloading, installation, and updates.
+
+- **Various Tools**: [View Scripts](https://github.com/pbowden-msft?tab=repositories) by [pbowden-msft](https://github.com/pbowden-msft)  
+  A collection of tools for repairing, setting up, and automating Microsoft Office products.
 
 ## **Microsoft Office Preference Keys**
 
@@ -107,12 +110,33 @@ For a detailed guide on how to create and manage PLIST files, refer to the [How 
 - [Outlook Preferences](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/preferences-outlook)  
 - [Office Suite Preferences](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/preferences-office)
 
+## Contributing/Feedback to macadmins_msft
+
+We welcome contributions to macadmins_msft! If you’d like to contribute or provide feedback:
+
+- **Report Issues**: Submit an issue on our [GitHub Issues page](https://github.com/cocopuff2u/macadmins_msft/issues) for bug reports or feature requests.
+- **Join the Discussion**: Connect with me, cocopuff2u, on the [Mac Admins Slack Channel](https://macadmins.slack.com/) to discuss and collaborate.
+    - **Join Slack**: If you’re new to Slack, you can [sign up for a Mac Admin Slack account here](https://join.slack.com/t/macadmins/shared_invite/zt-2tq3md5zr-jDtuUFHAFa8CIBwPhpFfFQ).
+    - **Sign In**: Already have a Slack account? [Sign in here](https://macadmins.slack.com/).
+    - **Slack Channels**: Once in the Mac Admins Slack workspace, you can join various channels, including:
+        - `#microsoft-office`
+        - `#microsoft-autoupdate`
+        - `#microsoft-intune`
+        - `#microsoft-windows-app`
+        - `#microsoft-office-365`
+        - `#microsoft-teams`
+          
+- **Email**: Reach out directly at [cocopuff2u@yahoo.com](mailto:cocopuff2u@yahoo.com) for any inquiries.
+- **Share Feedback**: We welcome your suggestions and comments to help us improve. Your feedback is crucial, so please feel free to share your thoughts!
+- **Fork and Fix**: Want to contribute directly? Fork the repository, make your changes, and submit a pull request to help enhance the code.
+
 ## **Helpful Links**
 
 Below are a list of helpful links.
 - **Microsoft Versioning Shenanigans**: [View Link](https://macmule.com/2018/09/24/microsoft-office-for-mac-changes-versioning-shenanigans/)
 - **Microsoft Deployment Options**: [View Link](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/deployment-options-for-office-for-mac)
 - **Microsoft Deploy From App Store**: [View Link](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/deploy-mac-app-store)
+- **JAMF Technical Paper: Managing Microsoft Office**: [View Link](https://learn.jamf.com/en-US/bundle/technical-paper-microsoft-office-current/page/User_Experience_Configuration.html)
 
 ## **Trademarks**
 
