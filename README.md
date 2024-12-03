@@ -4,6 +4,19 @@ This repository provides a centralized and up-to-date resource for Microsoft Off
 
 We welcome and encourage community engagement! Feel free to fork this repository, ask questions, or contribute additional information to ensure it remains accurate and valuable for everyone. Together, we can keep this resource thriving!
 
+----
+
+### 🚀 Current Work in Progress
+
+This project involves significant manual effort at first as I have yet to identify a reliable way to automate data extraction from the source (reliability). Currently, I am manually verifying information, removing outdated or irrelevant entries, and refining the data to ensure accuracy and relevance. 
+
+If you have suggestions or think something specific should be included, feel free to reach out—I’m happy to consider it! Once the foundational work is complete, ongoing updates will be straightforward and easily manageable.
+
+We are actively focusing on:
+
+- **Feature/Improvement:** Recreating Raw XML
+  _(Many requested this feature back)_
+
 ## <img src="images/Microsoft_Logo_512px.png" alt="Download Image" width="20"></a> Microsoft Office Installers
 
 <sub>All links below direct to Microsoft's official Content Delivery Network (CDN).</sub>
@@ -13,7 +26,7 @@ We welcome and encourage community engagement! Feel free to fork this repository
 
 | **Product Package** | **CFBundle Version** | **CFBundle Identifier** | **Download** |
 |----------------------|----------------------|--------------------------|--------------|
-| **Microsoft** <sup>365/2021/2024</sup> **and Office Suite Installer**<br><a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac" style="text-decoration: none;"><small>_Release Notes_</small></a><br><sub>_(Includes Word, Excel, PowerPoint, Outlook, OneNote, OneDrive, and MAU)_</sub> | 16.91 (24111020) | com.microsoft.office | <a href="https://go.microsoft.com/fwlink/?linkid=525133"><img src="images/suite.png" alt="Download Image" width="80"></a> |
+| **Microsoft** <sup>365/2021/2024</sup> **Office Suite Installer**<br><a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac" style="text-decoration: none;"><small>_Release Notes_</small></a><br><sub>_(Includes Word, Excel, PowerPoint, Outlook, OneNote, OneDrive, and MAU)_</sub> | 16.91 (24111020) | com.microsoft.office | <a href="https://go.microsoft.com/fwlink/?linkid=525133"><img src="images/suite.png" alt="Download Image" width="80"></a> |
 | **Microsoft** <sup>365/2021/2024</sup> **BusinessPro Suite Installer**<br><sub>_(Includes Word, Excel, PowerPoint, Outlook, OneNote, OneDrive, Teams, Defender Shim, and MAU)_</sub> | 16.91 (24111020) | com.microsoft.office | <a href="https://go.microsoft.com/fwlink/?linkid=2009112"><img src="images/suite.png" alt="Download Image" width="80"></a> |
 | **Word** <sup>365/2021/2024</sup> **</sup> Standalone Installer** | 16.91 (24111020) | com.microsoft.word | <a href="https://go.microsoft.com/fwlink/?linkid=525134"><img src="images/MSWD_512x512x32.png" alt="Download Image" width="80"></a> |
 | **Excel** <sup>365/2021/2024</sup> **Standalone Installer** | 16.91 (24111020) | com.microsoft.excel | <a href="https://go.microsoft.com/fwlink/?linkid=525135"><img src="images/XCEL_512x512x32.png" alt="Download Image" width="80"></a> |
