@@ -6,11 +6,13 @@ We encourage active community participation—feel free to fork the repository, 
 
 ### 🚀 **Current Work in Progress**
 
-This project involves significant manual effort, as reliable automation for data extraction from the source is still being explored. Currently, I’m manually verifying entries, removing outdated information, and refining the data for accuracy and relevance. Once the foundational work is complete, ongoing updates will be straightforward and easily manageable.
+~~This project involves significant manual effort, as reliable automation for data extraction from the source is still being explored.~~ (Found a full automated solution for pulling information) Currently, I’m verifying entries, removing outdated information, and refining the data for accuracy and relevance. Once the foundational work is complete, ongoing updates will be straightforward and easily manageable.
 
 We’re focused on:
 
 - **Feature/Improvement:** Recreating Raw XML (Completed 12/3/24)
+- **Feature/Improvement:** Creating a workflow to automate information (In Progress)
+- **Future:** Migrate to a full webpage (Waiting on funding/support 💸)
 - **Feedback:** Actively seeking user feedback to determine if additional information should be moved over or included. If you have suggestions, I’d love to hear from you!
 
 ## <img src="images/Microsoft_Logo_512px.png" alt="Download Image" width="20"></a> Microsoft Office Installers
@@ -36,7 +38,7 @@ We’re focused on:
 | **InTune Company Portal Standalone Installer**<br><a href="https://aka.ms/intuneupdates" style="text-decoration: none;"><small>_Release Notes_</small></a> | 5.2409.1 | com.microsoft.CompanyPortalMac | <a href="https://go.microsoft.com/fwlink/?linkid=853070"><img src="images/companyportal.png" alt="Download Image" width="80"></a> |
 | **Edge Standalone Installer** <sup>_(Stable Channel)_</sup><br><a href="https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnote-stable-channel" style="text-decoration: none;"><small>_Release Notes_</small></a>| 131.0.2903.70 | com.microsoft.edgemac | <a href="https://go.microsoft.com/fwlink/?linkid=2093504"><img src="images/edge_app.png" alt="Download Image" width="80"></a>|
 | **Defender Standalone Installer**<br><a href="https://learn.microsoft.com/microsoft-365/security/defender-endpoint/mac-whatsnew" style="text-decoration: none;"><small>_Release Notes_</small></a> | 101.24092.0004 | com.microsoft.wdav | <a href="https://go.microsoft.com/fwlink/?linkid=2097502"><img src="images/defender_512x512x32.png" alt="Download Image" width="80"></a> |
-| **Windows App Standalone Installer** </a><sup>_(Remote Desktop <img src="images/microsoft-remote-desktop-logo.png" alt="Remote Desktop" width="15"></a>)_</sup><br><a href="https://learn.microsoft.com/en-us/windows-app/whats-new?tabs=macos" style="text-decoration: none;"><small>_Release Notes_</small> | 11.0.7 | com.microsoft.autoupdate | <a href="https://go.microsoft.com/fwlink/?linkid=868963"><img src="images/windowsapp.png" alt="Download Image" width="80"></a> |
+| **Windows App Standalone Installer** </a><sup>_(Remote Desktop <img src="images/microsoft-remote-desktop-logo.png" alt="Remote Desktop" width="15"></a>)_</sup><br><a href="https://learn.microsoft.com/en-us/windows-app/whats-new?tabs=macos" style="text-decoration: none;"><small>_Release Notes_</small> | 11.0.7 | com.microsoft.rdc.macos | <a href="https://go.microsoft.com/fwlink/?linkid=868963"><img src="images/windowsapp.png" alt="Download Image" width="80"></a> |
 | **Visual Studio Code Standalone Installer**<br><a href="https://code.visualstudio.com/updates/" style="text-decoration: none;"><small>_Release Notes_</small></a>  | 1.95.3 | com.microsoft.VSCode | <a href="https://go.microsoft.com/fwlink/?linkid=2156837"><img src="images/Code_512x512x32.png" alt="Download Image" width="80"></a>|
 | **AutoUpdate Standalone Installer**<br><a href="https://learn.microsoft.com/en-us/officeupdates/release-history-microsoft-autoupdate" style="text-decoration: none;"><small>_Release Notes_</small></a>  | 4.76 | com.microsoft.autoupdate | <a href="https://go.microsoft.com/fwlink/?linkid=830196"><img src="images/autoupdate.png" alt="Download Image" width="80"></a>| 
 
