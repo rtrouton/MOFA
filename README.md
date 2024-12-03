@@ -14,15 +14,15 @@ If you have suggestions or think something specific should be included, feel fre
 
 We are actively focusing on:
 
-- **Feature/Improvement:** Recreating Raw XML
-  _(Many requested this feature back)_
+- **Feature/Improvement:** Recreating Raw XML (Completed 12/3/24)
+- **Feedback:** Actively seeking user feedback to determine if there is additional information to be moved over or included.
 
 ## <img src="images/Microsoft_Logo_512px.png" alt="Download Image" width="20"></a> Microsoft Office Installers
 
 <sub>All links below direct to Microsoft's official Content Delivery Network (CDN).</sub>
 <sub>The links provided will always download the latest version offered by Microsoft. However, the version information listed below reflects the version available at the time of this update.</sub>
 
-<sub>_Last Updated: December 2, 2024 @ 2:00 PM Eastern Time_ </sub>
+<sub>_Last Updated: December 3, 2024 @ 10:30 AM Eastern Time_ [**_Raw XML_**](/latest.xml) </sub>
 
 | **Product Package** | **CFBundle Version** | **CFBundle Identifier** | **Download** |
 |----------------------|----------------------|--------------------------|--------------|
