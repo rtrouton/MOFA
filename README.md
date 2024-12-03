@@ -6,16 +6,16 @@ We welcome and encourage community engagement! Feel free to fork this repository
 
 ----
 
-### 🚀 Current Work in Progress
+### <sup>🚀 Current Work in Progress</sup>
 
-This project involves significant manual effort at first as I have yet to identify a reliable way to automate data extraction from the source (reliability). Currently, I am manually verifying information, removing outdated or irrelevant entries, and refining the data to ensure accuracy and relevance. 
+<sup>This project involves significant manual effort at first as I have yet to identify a reliable way to automate data extraction from the source (reliability). Currently, I am manually verifying information, removing outdated or irrelevant entries, and refining the data to ensure accuracy and relevance. <sup>
 
-If you have suggestions or think something specific should be included, feel free to reach out—I’m happy to consider it! Once the foundational work is complete, ongoing updates will be straightforward and easily manageable.
+<sup>If you have suggestions or think something specific should be included, feel free to reach out—I’m happy to consider it! Once the foundational work is complete, ongoing updates will be straightforward and easily manageable.</sup>
 
-We are actively focusing on:
+<sup>We are actively focusing on:</sup>
 
-- **Feature/Improvement:** Recreating Raw XML (Completed 12/3/24)
-- **Feedback:** Actively seeking user feedback to determine if there is additional information to be moved over or included.
+<sup> - **Feature/Improvement:** Recreating Raw XML (Completed 12/3/24)</sup> <br>
+<sup> - **Feedback:** Actively seeking user feedback to determine if there is additional information to be moved over or included.</sup>
 
 ## <img src="images/Microsoft_Logo_512px.png" alt="Download Image" width="20"></a> Microsoft Office Installers
 
