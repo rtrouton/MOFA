@@ -1,547 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <latest>
-	<o365>16.80.0</o365>
-	<vl2021>16.80.0</vl2021>
-	<vl2019>16.78.3</vl2019>
-	<vl2016>16.16.27</vl2016>
-<package>
-	<id>com.microsoft.office.suite.365</id>
-	<title>Microsoft 365 and Office 2021 Suite Installer</title>
-	<subtext>(Word / Excel / PowerPoint / Outlook / OneNote / OneDrive / MAU)</subtext>
-	<moreinfo>NA</moreinfo>
-	<moreurl>NA</moreurl>
-	<version>16.80.23121017 64-bit Universal</version>
-	<cfbundleidentifier>NA</cfbundleidentifier>
-	<cfbundleshortversionstring>16.80.0</cfbundleshortversionstring>
-	<cfbundleversion>16.80.23121017</cfbundleversion>
-	<lastupdated>December 12, 2023</lastupdated>
-	<subversion>NA</subversion>
-	<min_os>12.0</min_os>
-	<big-sur>Yes</big-sur>
-	<mach-o>arm64, x86_64</mach-o>
-	<sha1>f16e43b4422681f066e956c28c585bcb9d59db60</sha1>
-	<sha256>96fea841201602c82b6ba91ebf841be5c6b58d5a2caf0ff388de354b9d8a2fb1</sha256>
-	<icon>https://macadmins.software/icons/suite.png</icon>
-	<download>https://go.microsoft.com/fwlink/?linkid=525133</download>
-</package>
-<package>
-	<id>com.microsoft.office.suite.365.businesspro</id>
-	<title>Microsoft 365 BusinessPro Suite Installer</title>
-	<subtext>(Word / Excel / PowerPoint / Outlook / OneNote / OneDrive / Teams / Defender Shim / MAU)</subtext>
-	<moreinfo>More info about the Defender Shim</moreinfo>
-	<moreurl>https://macadmins.software/shim</moreurl>
-	<version>16.80.23121017 64-bit Universal</version>
-	<cfbundleidentifier>NA</cfbundleidentifier>
-	<cfbundleshortversionstring>16.80.0</cfbundleshortversionstring>
-	<cfbundleversion>16.80.23121017</cfbundleversion>
-	<lastupdated>December 12, 2023</lastupdated>
-	<subversion>NA</subversion>
-	<min_os>12.0</min_os>
-	<big-sur>Yes</big-sur>
-	<mach-o>arm64, x86_64</mach-o>
-	<sha1>c632ff2e33385020a85920045b72fb1db9290b42</sha1>
-	<sha256>06274db9e2556e9e11c595a6c96da63399312363d90135f0da7726adc6091887</sha256>
-	<icon>https://macadmins.software/icons/Office-Union-1024.png</icon>
-	<download>https://go.microsoft.com/fwlink/?linkid=2009112</download>
-</package>
-<oldpackage>
-	<id>com.microsoft.office.suite.2016</id>
-	<title>Office 2016 Suite Installer</title>
-	<subtext>(Word / Excel / PowerPoint / Outlook / OneNote / OneDrive / MAU)</subtext>
-    <moreinfo>Support ended 10/13/2020!</moreinfo>
-    <moreurl>https://go.microsoft.com/fwlink/?linkid=2106534</moreurl>
-	<version>16.16.20101200 64-bit</version>
-	<cfbundleidentifier>NA</cfbundleidentifier>
-	<cfbundleshortversionstring>16.16.27</cfbundleshortversionstring>
-	<cfbundleversion>16.16.20101200</cfbundleversion>
-	<lastupdated>October 13, 2020</lastupdated>
-	<subversion>aka 16.16.27</subversion>
-	<min_os>10.10</min_os>
-	<big-sur>No</big-sur>
-	<mach-o>x86_64</mach-o>
-	<sha1>f45e951627d295a0d2e1d7697693aab1ba2e980f</sha1>
-	<sha256>f108918241da7bd1442b97e42c6f9c3d9241202461c2f8ea0fc4e8abb2a1c581</sha256>
-	<icon>https://macadmins.software/icons/suite-2016.png</icon>
-	<download>https://go.microsoft.com/fwlink/?linkid=871743</download>
-</oldpackage>
-<package>
-	<id>com.microsoft.word.standalone.365</id>
-	<title>Word 365/2021 Standalone Installer</title>
-	<subtext>NA</subtext>
-	<moreinfo>NA</moreinfo>
-	<moreurl>NA</moreurl>
-	<version>16.80.23121017 64-bit Universal</version>
-	<cfbundleidentifier>com.microsoft.Word</cfbundleidentifier>
-	<cfbundleshortversionstring>16.80.0</cfbundleshortversionstring>
-	<cfbundleversion>16.80.23121017</cfbundleversion>
-	<lastupdated>December 12, 2023</lastupdated>
-	<subversion>NA</subversion>
-	<min_os>12.0</min_os>
-	<big-sur>Yes</big-sur>
-	<mach-o>arm64, x86_64</mach-o>
-	<sha1>d6f90e1069bd52cdef53971c4cc33fe39c3a9ee2</sha1>
-	<sha256>fa9d5023b6dadc129b642272a219bb211a5946e8aaebd3b3c0942051bbe5ae02</sha256>
-	<icon>https://macadmins.software/icons/WordOSAppIcon.targetsize-1024.png</icon>
-	<download>https://go.microsoft.com/fwlink/?linkid=525134</download>
-</package>
-<oldpackage>
-	<id>com.microsoft.word.standalone.2016</id>
-	<title>Word 2016 Standalone Installer</title>
-	<subtext>NA</subtext>
-    <moreinfo>Support ended 10/13/2020!</moreinfo>
-    <moreurl>https://go.microsoft.com/fwlink/?linkid=2106534</moreurl>
-	<version>16.16.20101200 64-bit</version>
-	<cfbundleidentifier>com.microsoft.Word</cfbundleidentifier>
-	<cfbundleshortversionstring>16.16.27</cfbundleshortversionstring>
-	<cfbundleversion>16.16.20101200</cfbundleversion>
-	<lastupdated>October 13, 2020</lastupdated>
-	<subversion>aka 16.16.27</subversion>
-	<min_os>10.10</min_os>
-	<big-sur>No</big-sur>
-	<mach-o>x86_64</mach-o>
-	<sha1>90083358504a8692c3277339143c04aaa65d1ea5</sha1>
-	<sha256>0c61b7db7a6a13653270795c085a909aa54668e8de2f2ca749257ce6aa5957d1</sha256>
-	<icon>https://macadmins.software/icons/Word_2016.png</icon>
-	<download>https://go.microsoft.com/fwlink/?linkid=871748</download>
-</oldpackage>
-<package>
-	<id>com.microsoft.excel.standalone.365</id>
-	<title>Excel 365/2021 Standalone Installer</title>
-	<subtext>NA</subtext>
-	<moreinfo>NA</moreinfo>
-	<moreurl>NA</moreurl>
-	<version>16.80.23121017 64-bit Universal</version>
-	<cfbundleidentifier>com.microsoft.Excel</cfbundleidentifier>
-	<cfbundleshortversionstring>16.80.0</cfbundleshortversionstring>
-	<cfbundleversion>16.80.23121017</cfbundleversion>
-	<lastupdated>December 12, 2023</lastupdated>
-	<subversion>NA</subversion>
-	<min_os>12.0</min_os>
-	<big-sur>Yes</big-sur>
-	<mach-o>arm64, x86_64</mach-o>
-	<sha1>baaba4fca618693b5fa12b72d4e5c4217ab9ed26</sha1>
-	<sha256>d85909b859be53d2073be944667f6557d65b791e0403cea6d2abc150531dc399</sha256>
-	<icon>https://macadmins.software/icons/ExcelOSAppIcon.targetsize-1024.png</icon>
-	<download>https://go.microsoft.com/fwlink/?linkid=525135</download>
-</package>
-<oldpackage>
-	<id>com.microsoft.excel.standalone.2016</id>
-	<title>Excel 2016 Standalone Installer</title>
-	<subtext>NA</subtext>
-    <moreinfo>Support ended 10/13/2020!</moreinfo>
-    <moreurl>https://go.microsoft.com/fwlink/?linkid=2106534</moreurl>
-	<version>16.16.20101200 64-bit</version>
-	<cfbundleidentifier>com.microsoft.Excel</cfbundleidentifier>
-	<cfbundleshortversionstring>16.16.27</cfbundleshortversionstring>
-	<cfbundleversion>16.16.20101200</cfbundleversion>
-	<lastupdated>October 13, 2020</lastupdated>
-	<subversion>aka 16.16.27</subversion>
-	<min_os>10.10</min_os>
-	<big-sur>No</big-sur>
-	<mach-o>x86_64</mach-o>
-	<sha1>56de9e02d5a5a757ff05b956328fadb8e73e3e76</sha1>
-	<sha256>bdd23b696d54e5ffeb40f30a9bd7f968d2936380ab78a6eaf29d05f5fc8eb78e</sha256>
-	<icon>https://macadmins.software/icons/Excel_2016.png</icon>
-	<download>https://go.microsoft.com/fwlink/?linkid=871750</download>
-</oldpackage>
-<package>
-	<id>com.microsoft.powerpoint.standalone.365</id>
-	<title>PowerPoint 365/2021 Standalone Installer</title>
-	<subtext>NA</subtext>
-	<moreinfo>NA</moreinfo>
-	<moreurl>NA</moreurl>
-	<version>16.80.23121017 64-bit Universal</version>
-	<cfbundleidentifier>com.microsoft.Powerpoint</cfbundleidentifier>
-	<cfbundleshortversionstring>16.80.0</cfbundleshortversionstring>
-	<cfbundleversion>16.80.23121017</cfbundleversion>
-	<lastupdated>December 12, 2023</lastupdated>
-	<subversion>NA</subversion>
-	<min_os>12.0</min_os>
-	<big-sur>Yes</big-sur>
-	<mach-o>arm64, x86_64</mach-o>
-	<sha1>fc8250dbf344104a78bcc6544f435685fada0e25</sha1>
-	<sha256>f36a0f08cfec8628966f93b3ac23b09bbff4d66d2169fd5919c61e26ce4a7840</sha256>
-	<icon>https://macadmins.software/icons/PowerPointOSAppIcon.targetsize-1024.png</icon>
-	<download>https://go.microsoft.com/fwlink/?linkid=525136</download>
-</package>
-<oldpackage>
-	<id>com.microsoft.powerpoint.standalone.2016</id>
-	<title>PowerPoint 2016 Standalone Installer</title>
-	<subtext>NA</subtext>
-    <moreinfo>Support ended 10/13/2020!</moreinfo>
-    <moreurl>https://go.microsoft.com/fwlink/?linkid=2106534</moreurl>
-	<version>16.16.20101200 64-bit</version>
-	<cfbundleidentifier>com.microsoft.Powerpoint</cfbundleidentifier>
-	<cfbundleshortversionstring>16.16.27</cfbundleshortversionstring>
-	<cfbundleversion>16.16.20101200</cfbundleversion>
-	<lastupdated>October 13, 2020</lastupdated>
-	<subversion>aka 16.16.27</subversion>
-	<min_os>10.10</min_os>
-	<big-sur>No</big-sur>
-	<mach-o>x86_64</mach-o>
-	<sha1>5921f96349fe9801fd4ac83d397123aeac31e095</sha1>
-	<sha256>0c898068408082124f7fe45717e3fb4b4f5647b609b54dc5fa6c90e295f499c3</sha256>
-	<icon>https://macadmins.software/icons/PowerPoint_2016.png</icon>
-	<download>https://go.microsoft.com/fwlink/?linkid=871751</download>
-</oldpackage>
-<package>
-	<id>com.microsoft.outlook.standalone.365</id>
-	<title>Outlook 365/2021 Standalone Installer (Weekly)</title>
-	<subtext>NA</subtext>
-	<moreinfo>More info about weekly updates</moreinfo>
-	<moreurl>https://macadmins.software/weekly</moreurl>
-	<version>16.80.23121017 64-bit Universal</version>
-	<cfbundleidentifier>com.microsoft.Outlook</cfbundleidentifier>
-	<cfbundleshortversionstring>16.80.0</cfbundleshortversionstring>
-	<cfbundleversion>16.80.23121017</cfbundleversion>
-	<lastupdated>December 12, 2023</lastupdated>
-	<subversion>NA</subversion>
-	<min_os>12.0</min_os>
-	<big-sur>Yes</big-sur>
-	<mach-o>arm64, x86_64</mach-o>
-	<sha1>845ad9ad736e3fef688bd14db98a36930141e7e2</sha1>
-	<sha256>354090a3705b1e2cc03ae638d4901202c3193b04842080238e2e874648ece17b</sha256>
-	<icon>https://macadmins.software/icons/OutlookOSAppIcon.targetsize-1024.png</icon>
-	<download>https://go.microsoft.com/fwlink/?linkid=525137</download>
-</package>
-<package>
-	<id>com.microsoft.outlook.standalone.365.monthly</id>
-	<title>Outlook 365/2021 Standalone Installer (Monthly)</title>
-	<subtext>NA</subtext>
-	<moreinfo>NA</moreinfo>
-	<moreurl>NA</moreurl>
-	<version>16.80.23121017 64-bit Universal</version>
-	<cfbundleidentifier>com.microsoft.Outlook</cfbundleidentifier>
-	<cfbundleshortversionstring>16.80.0</cfbundleshortversionstring>
-	<cfbundleversion>16.80.23121017</cfbundleversion>
-	<lastupdated>December 12, 2023</lastupdated>
-	<subversion>NA</subversion>
-	<min_os>12.0</min_os>
-	<big-sur>Yes</big-sur>
-	<mach-o>arm64, x86_64</mach-o>
-	<sha1>845ad9ad736e3fef688bd14db98a36930141e7e2</sha1>
-	<sha256>354090a3705b1e2cc03ae638d4901202c3193b04842080238e2e874648ece17b</sha256>
-	<icon>https://macadmins.software/icons/OutlookOSAppIcon.targetsize-1024.png</icon>
-	<download>https://go.microsoft.com/fwlink/?linkid=2228621</download>
-</package>
-<oldpackage>
-	<id>com.microsoft.outlook.standalone.2016</id>
-	<title>Outlook 2016 Standalone Installer</title>
-	<subtext>NA</subtext>
-    <moreinfo>Support ended 10/13/2020!</moreinfo>
-    <moreurl>https://go.microsoft.com/fwlink/?linkid=2106534</moreurl>
-	<version>16.16.20101200 64-bit</version>
-	<cfbundleidentifier>com.microsoft.Outlook</cfbundleidentifier>
-	<cfbundleshortversionstring>16.16.27</cfbundleshortversionstring>
-	<cfbundleversion>16.16.20101200</cfbundleversion>
-	<lastupdated>October 13, 2020</lastupdated>
-	<subversion>aka 16.16.27</subversion>
-	<min_os>10.10</min_os>
-	<big-sur>No</big-sur>
-	<mach-o>x86_64</mach-o>
-	<sha1>4dcb5c4553828daf9bdf7a0b5866e8a0b7017a53</sha1>
-	<sha256>aafedfe466b7bf10f96fdfbf6b0f9bcf84e94a5097e5fccb3740d3d0cc666f26</sha256>
-	<icon>https://macadmins.software/icons/Outlook_2016.png</icon>
-	<download>https://go.microsoft.com/fwlink/?linkid=871753</download>
-</oldpackage>
-<package>
-	<id>com.microsoft.onenote.standalone.365</id>
-	<title>OneNote Free Standalone Updater</title>
-	<subtext>NA</subtext>
-	<moreinfo>NA</moreinfo>
-	<moreurl>NA</moreurl>
-	<version>16.80.23121017 64-bit Universal</version>
-	<cfbundleidentifier>com.microsoft.onenote.mac</cfbundleidentifier>
-	<cfbundleshortversionstring>16.80.0</cfbundleshortversionstring>
-	<cfbundleversion>16.80.23121017</cfbundleversion>
-	<lastupdated>December 12, 2023</lastupdated>
-	<subversion>NA</subversion>
-	<min_os>12.0</min_os>
-	<big-sur>Yes</big-sur>
-	<mach-o>arm64, x86_64</mach-o>
-	<sha1>21995409d7dfd154571cdf66c60cbc5c7f16af53</sha1>
-	<sha256>22c0da595891ede656b05205e2f42e6f65f938be031839ccdbe48e5ec1795012</sha256>
-	<icon>https://macadmins.software/icons/OneNoteOSAppIcon.targetsize-1024.png</icon>
-	<download>https://go.microsoft.com/fwlink/?linkid=820886</download>
-</package>
-<package>
-	<id>com.microsoft.onedrive.standalone</id>
-	<title>OneDrive Standalone Installer</title>
-	<subtext>NA</subtext>
-	<moreinfo>Release Notes</moreinfo>
-	<moreurl>https://support.microsoft.com/office/onedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0?OSVersion=Mac#OSVersion=Mac</moreurl>
-	<version>23.246.1127 [231213] 64-bit</version>
-	<cfbundleidentifier>com.microsoft.OneDrive</cfbundleidentifier>
-	<cfbundleshortversionstring>23.246.1127</cfbundleshortversionstring>
-	<cfbundleversion>23246.1127.0002</cfbundleversion>
-	<lastupdated>December 13, 2023</lastupdated>
-	<subversion>NA</subversion>
-	<min_os>11.0</min_os>
-	<big-sur>Yes</big-sur>
-	<mach-o>arm64, x86_64</mach-o>
-	<sha1>ff96db247d1fd6cfe752cdad89bb00cc9d75f931</sha1>
-	<sha256>965e16125bfd72f5be68a4d1d67a1aa4777695510c7564a1881d7c09b99946ae</sha256>
-	<icon>https://macadmins.software/icons/OneDriveOSAppIcon.targetsize-1024.png</icon>
-	<download>https://go.microsoft.com/fwlink/?linkid=823060</download>
-</package>
-<package>
-	<id>com.microsoft.skypeforbusiness.standalone</id>
-	<title>Skype for Business Standalone Installer</title>
-	<subtext>NA</subtext>
-	<moreinfo>Whats New</moreinfo>
-	<moreurl>https://support.office.com/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781#OS_Type=Mac</moreurl>
-	<version>16.30.32 [230925] 64-bit</version>
-	<cfbundleidentifier>com.microsoft.SkypeForBusiness</cfbundleidentifier>
-	<cfbundleshortversionstring>16.30.32</cfbundleshortversionstring>
-	<cfbundleversion>16.30.32</cfbundleversion>
-	<lastupdated>September 25, 2023</lastupdated>
-	<subversion>NA</subversion>
-	<min_os>10.14</min_os>
-	<big-sur>Yes</big-sur>
-	<mach-o>x86_64</mach-o>
-	<sha1>91c6abad17552136cdbda3f7af12f1484f664fd2</sha1>
-	<sha256>81f484842e86a39c9f33abc4d35b4e7dbb87189ca3c424a6396e15d96ea2dbd5</sha256>
-	<icon>https://macadmins.software/icons/SkypeOSAppIcon.targetsize-1024.png</icon>
-	<download>https://go.microsoft.com/fwlink/?linkid=832978</download>
-</package>
-<package>
-	<id>com.microsoft.teams.standalone</id>
-	<title>Teams 1.0 Classic Standalone Installer</title>
-	<subtext>Now a Universal 2 package!</subtext>
-	<moreinfo>Direct download for the audio driver</moreinfo>
-	<moreurl>https://statics.teams.cdn.office.net/evergreen-assets/DesktopClient/MacAudioLBDriver/2023.31.01.2/MSTeamsAudioDevice.pkg</moreurl>
-	<version>1.00.634211 [231213] 64-bit</version>
-	<cfbundleidentifier>com.microsoft.teams</cfbundleidentifier>
-	<cfbundleshortversionstring>1.00.634211</cfbundleshortversionstring>
-	<cfbundleversion>634211</cfbundleversion>
-	<lastupdated>December 13, 2023</lastupdated>
-	<subversion>NA</subversion>
-	<min_os>10.13</min_os>
-	<big-sur>Yes</big-sur>
-	<mach-o>arm64, x86_64</mach-o>
-	<sha1>b5366e0ae2c9fc7aa9a09a5253256e3c0ba93be9</sha1>
-	<sha256>12272351cec52f9bba9a2af2a2cb58b6982424a2ca1d92f4ff903851ff41aa77</sha256>
-	<icon>https://macadmins.software/icons/TeamsOSAppIcon.targetsize-1024.png</icon>
-	<download>https://go.microsoft.com/fwlink/?linkid=869428</download>
-</package>
-<package>
-	<id>com.microsoft.teams2.standalone</id>
-	<title>Teams 2.1 Standalone Installer</title>
-	<subtext>NA</subtext>
-	<moreinfo>NA</moreinfo>
-	<moreurl>NA</moreurl>
-	<version>23306.3408.2576.5406 [231213] 64-bit</version>
-	<cfbundleidentifier>com.microsoft.teams2</cfbundleidentifier>
-	<cfbundleshortversionstring>23306.3408.2576.5406</cfbundleshortversionstring>
-	<cfbundleversion>23306.3408.2576.5406</cfbundleversion>
-	<lastupdated>December 13, 2023</lastupdated>
-	<subversion>NA</subversion>
-	<min_os>10.15</min_os>
-	<big-sur>Yes</big-sur>
-	<mach-o>arm64, x86_64</mach-o>
-	<sha1>8a8052f21d59b0bd6196cbb34aa7ad90f45931eb</sha1>
-	<sha256>a577bdf56a802e2ca32c002faea81fcda42024118365eed17f8bdb3897a77fc1</sha256>
-	<icon>https://macadmins.software/icons/Teams21.png</icon>
-	<download>https://go.microsoft.com/fwlink/?linkid=2249065</download>
-</package>
-<oldpackage>
-    <id>com.microsoft.yammer.standalone</id>
-    <title>Yammer Standalone DMG</title>
-    <subtext>NA</subtext>
-    <moreinfo>NA</moreinfo>
-    <moreurl>NA</moreurl>
-    <version>3.4.8 [200724] 64-bit</version>
-    <cfbundleidentifier>com.microsoft.Yammer</cfbundleidentifier>
-	<cfbundleshortversionstring>3.4.8</cfbundleshortversionstring>
-	<cfbundleversion>3.4.8</cfbundleversion>
-	<lastupdated>July 24, 2020</lastupdated>
-    <subversion>NA</subversion>
-    <min_os>10.10</min_os>
-    <big-sur>NA</big-sur>
-    <mach-o>x86_64</mach-o>
-    <sha1>9a8c7f4a12a94ee840431f92802ced9220eae4bf</sha1>
-    <sha256>5ccf21ebeeb1d35c334bbe96742aac80cb3ce9b256faee3b48e66bcec72a7a87</sha256>
-    <icon>https://macadmins.software/icons/Yammer.jpg</icon>
-    <download>https://aka.ms/yammer_desktop_mac</download>
-</oldpackage>
-<package>
-	<id>com.microsoft.intunecompanyportal.standalone</id>
-	<title>Intune Company Portal Standalone Installer</title>
-	<subtext>NA</subtext>
-	<moreinfo>Release Notes</moreinfo>
-	<moreurl>https://aka.ms/intuneupdates</moreurl>
-	<version>5.2310.5 (53.2310356.002) [231111]</version>
-	<cfbundleidentifier>com.microsoft.CompanyPortalMac</cfbundleidentifier>
-	<cfbundleshortversionstring>5.2310.5</cfbundleshortversionstring>
-	<cfbundleversion>53.2310356.002</cfbundleversion>
-	<lastupdated>November 11, 2023</lastupdated>
-	<subversion>NA</subversion>
-	<min_os>11.0</min_os>
-	<big-sur>Yes</big-sur>
-	<mach-o>arm64, x86_64</mach-o>
-	<sha1>c93f4247649aba35d12fe70f5f36437735c5c270</sha1>
-	<sha256>6134a3912da0839891335a84e3fb2ff12a59abf4c90420c3d92272780d126887</sha256>
-	<icon>https://macadmins.software/icons/companyportal.png</icon>
-	<download>https://go.microsoft.com/fwlink/?linkid=869655</download>
-</package>
-<package>
-	<id>com.microsoft.edge</id>
-	<title>Edge Stable Channel Installer</title>
-	<subtext>NA</subtext>
-	<moreinfo>Release Notes</moreinfo>
-	<moreurl>https://www.microsoft.com/edge</moreurl>
-	<version>120.2210.23120661 [231213] 64-bit</version>
-	<cfbundleidentifier>com.microsoft.edgemac</cfbundleidentifier>
-	<cfbundleshortversionstring>120.0.2210.61</cfbundleshortversionstring>
-	<cfbundleversion>120.2210.23120661</cfbundleversion>
-	<lastupdated>December 13, 2023</lastupdated>
-	<subversion>NA</subversion>
-	<min_os>10.15</min_os>
-	<big-sur>Yes</big-sur>
-	<mach-o>arm64, x86_64</mach-o>
-	<sha1>67ba36da965a7395bbaebaebc9f3e5b5ad43353c</sha1>
-	<sha256>a34ad087155db844aabe47175eff2f5cafce9f13352570d3133f9e061c8c0966</sha256>
-	<icon>https://macadmins.software/icons/Edge.png</icon>
-	<download>https://go.microsoft.com/fwlink/?linkid=2093504</download>
-</package>
-<package>
-    <id>com.microsoft.defender.standalone</id>
-    <title>Defender Standalone Installer</title>
-    <subtext>NA</subtext>
-    <moreinfo>Release Notes</moreinfo>
-    <moreurl>https://learn.microsoft.com/microsoft-365/security/defender-endpoint/mac-whatsnew</moreurl>
-    <version>101.23102.0020 [231213] 64-bit</version>
-    <cfbundleidentifier>com.microsoft.wdav</cfbundleidentifier>
-	<cfbundleshortversionstring>101.23102.0020</cfbundleshortversionstring>
-	<cfbundleversion>101.23102.0020</cfbundleversion>
-	<lastupdated>December 13, 2023</lastupdated>
-    <subversion>NA</subversion>
-    <min_os>11.0</min_os>
-    <big-sur>Yes</big-sur>
-    <mach-o>arm64, x86_64</mach-o>
-    <sha1>10b986693858bd60849d17f658371abdf8b8e064</sha1>
-    <sha256>c47f80e4d433ce28f783376d60c051915a3e7231c80ece30503bee7094e83786</sha256>
-    <icon>https://macadmins.software/icons/Defender.png</icon>
-    <download>https://go.microsoft.com/fwlink/?linkid=2097502</download>
-</package>
-<package>
-	<id>com.microsoft.remotedesktop.standalone</id>
-	<title>Remote Desktop Standalone Installer</title>
-	<subtext>NA</subtext>
-	<moreinfo>Release Notes</moreinfo>
-	<moreurl>https://itunes.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12</moreurl>
-	<version>10.9.4 (2161) [231023] 64-bit</version>
-	<cfbundleidentifier>com.microsoft.rdc.macos</cfbundleidentifier>
-	<cfbundleshortversionstring>10.9.4</cfbundleshortversionstring>
-	<cfbundleversion>2161</cfbundleversion>
-	<lastupdated>October 22, 2023</lastupdated>
-	<subversion>NA</subversion>
-	<min_os>11.0</min_os>
-	<big-sur>Yes</big-sur>
-	<mach-o>arm64, x86_64</mach-o>
-	<sha1>5d60dc692721f60c96878600f144e111c2aef12f</sha1>
-	<sha256>0b9daf56664686bfc3776eb96e44467b2c9fad8460fc1d043b469efbfb2392da</sha256>
-	<icon>https://macadmins.software/icons/remotedesktop.png</icon>
-	<download>https://go.microsoft.com/fwlink/?linkid=868963</download>
-</package>
-<package>
-	<id>com.microsoft.vscode.zip</id>
-	<title>Visual Studio Code</title>
-	<subtext>zip package</subtext>
-	<moreinfo>NA</moreinfo>
-	<moreurl>NA</moreurl>
-	<version>1.85.1 [231213] 64-bit</version>
-	<cfbundleidentifier>com.microsoft.VSCode</cfbundleidentifier>
-	<cfbundleshortversionstring>1.85.1</cfbundleshortversionstring>
-	<cfbundleversion>1.85.1</cfbundleversion>
-	<lastupdated>December 13, 2023</lastupdated>
-	<subversion>NA</subversion>
-	<min_os>10.13</min_os>
-	<big-sur>Yes</big-sur>
-	<mach-o>arm64, x86_64</mach-o>
-	<sha1>8aeec4b86ba1215fb28711a836f897c532ef13a8</sha1>
-	<sha256>27b79f0807c6c702d7a2e78af8441c17dc08c2fb74a4e132750b3b5d1d75868f</sha256>
-	<icon>https://macadmins.software/icons/VSCode.png</icon>
-	<download>https://go.microsoft.com/fwlink/?linkid=2156837</download>
-</package>
-<package>
-	<id>com.microsoft.autoupdate.standalone</id>
-	<title>Microsoft AutoUpdate (MAU) Standalone Installer</title>
-	<subtext>NA</subtext>
-	<moreinfo>NA</moreinfo>
-	<moreurl>NA</moreurl>
-	<version>4.66.23121017 64-bit Universal</version>
-	<cfbundleidentifier>com.microsoft.autoupdate2</cfbundleidentifier>
-	<cfbundleshortversionstring>4.66</cfbundleshortversionstring>
-	<cfbundleversion>4.66.23121017</cfbundleversion>
-	<lastupdated>December 12, 2023</lastupdated>
-	<subversion>NA</subversion>
-	<min_os>10.14</min_os>
-	<big-sur>Yes</big-sur>
-	<mach-o>arm64, x86_64</mach-o>
-	<sha1>159fdbc265c85d6ad3fb85b566cdd8acb90fbe6f</sha1>
-	<sha256>e1d0fb04740282af67235329cd3d51229168bdde69d57b38ecfeaf66969170fd</sha256>
-	<icon>https://macadmins.software/icons/mau4.png</icon>
-	<download>https://go.microsoft.com/fwlink/?linkid=830196</download>
-</package>
-<oldpackage>
-	<id>com.microsoft.sharepointplugin.standalone</id>
-	<title>SharePoint Plugin Installer</title>
-	<subtext>NA</subtext>
-	<moreinfo>KB Article</moreinfo>
-	<moreurl>https://support.microsoft.com/kb/3183199</moreurl>
-	<version>15.32.0 [170309] 64-bit</version>
-	<cfbundleidentifier>NA</cfbundleidentifier>
-	<cfbundleshortversionstring>NA</cfbundleshortversionstring>
-	<cfbundleversion>NA</cfbundleversion>
-	<lastupdated>March 9, 2017</lastupdated>
-	<subversion>NA</subversion>
-	<min_os>10.10</min_os>
-	<big-sur>No</big-sur>
-	<mach-o>x86_64</mach-o>
-	<sha1>45af4855ee23157b8f0a909e60a7e97865d1f8c0</sha1>
-	<sha256>f7f29202881a319fb249d15ab6125b5a1a94b303c649cbe3fafb37ecd4728ed8</sha256>
-	<icon>https://macadmins.software/icons/SharepointOSAppIcon.targetsize-1024.png</icon>
-	<download>https://go.microsoft.com/fwlink/?linkid=800050</download>
-</oldpackage>
-<oldpackage>
-	<id>com.microsoft.office.suite.2011</id>
-	<title>Office 2011 Suite Installer</title>
-	<subtext>NA</subtext>
-	<moreinfo>Support ended 10/10/2017!</moreinfo>
-	<moreurl>https://support.microsoft.com/en-us/lifecycle?p1=15627</moreurl>
-	<version>14.7.7 [170905] 32-bit</version>
-	<cfbundleidentifier>NA</cfbundleidentifier>
-	<cfbundleshortversionstring>NA</cfbundleshortversionstring>
-	<cfbundleversion>NA</cfbundleversion>
-	<lastupdated>September 5, 2017</lastupdated>
-	<subversion>NA</subversion>
-	<min_os>10.6.8</min_os>
-	<big-sur>No</big-sur>
-	<mach-o>x86_64</mach-o>
-	<sha1>04eaca30ca7fbe77405ee7c906a7b359cef2b5ce</sha1>
-	<sha256>cf0b27b82f3bca8b447d756d8c921049a18a671878f32c73bd21a5fb3a080983</sha256>
-	<icon>https://macadmins.software/icons/dino.png</icon>
-	<download>https://go.microsoft.com/fwlink/?linkid=273962</download>
-</oldpackage>
-<oldpackage>
-	<id>com.microsoft.lync.standalone.2011</id>
-	<title>Lync 2011 Standalone Installer</title>
-	<subtext>NA</subtext>
-	<moreinfo>Extended support ended 10/9/2018</moreinfo>
-	<moreurl>https://support.microsoft.com/en-us/lifecycle/search?alpha=Lync%202011</moreurl>
-	<version>14.4.3 [170308] 32-bit</version>
-	<cfbundleidentifier>NA</cfbundleidentifier>
-	<cfbundleshortversionstring>NA</cfbundleshortversionstring>
-	<cfbundleversion>NA</cfbundleversion>
-	<lastupdated>March 8, 2017</lastupdated>
-	<subversion>NA</subversion>
-	<min_os>10.6.8</min_os>
-	<big-sur>No</big-sur>
-	<mach-o>x86_64</mach-o>
-	<sha1>40543ebc367997777b1e99cb7731b58ca7a4e728</sha1>
-	<sha256>6e980b1eaa85a83d7c7cebbdb1135af82158cae26ae18d0dd171576bd9cc076a</sha256>
-	<icon>https://macadmins.software/icons/lyncico.png</icon>
-	<download>https://download.microsoft.com/download/5/0/0/500C7E1F-3235-47D4-BC11-95A71A1BA3ED/lync_14.4.3_170308.dmg</download>
-</oldpackage>
+	<o365>16.91.0</o365>
+	<vl2024>16.91.0</vl2024>
+	<vl2021>16.91.0</vl2021>
+	<package>
+		<id>com.microsoft.office.suite.365</id>
+		<title>Microsoft 365/2021/2024 Office Suite Installer</title>
+		<subtext>(Includes Word, Excel, PowerPoint, Outlook, OneNote, OneDrive, and MAU)</subtext>
+		<moreinfo>https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac</moreinfo>
+		<version>16.91.0</version>
+		<cfbundleidentifier>com.microsoft.office</cfbundleidentifier>
+		<cfbundleshortversionstring>16.91 (24111020)</cfbundleshortversionstring>
+		<lastupdated>November 12, 2024</lastupdated>
+		<min_os>13.0</min_os>
+		<sha256>86bb9dc49bcc0d8b632d37ad6743b15a4c2caaa1b8a76029167a720d356a884d</sha256>
+		<download>https://go.microsoft.com/fwlink/?linkid=525133</download>
+	</package>
+	<package>
+		<id>com.microsoft.office.suite.365.businesspro</id>
+		<title>Microsoft 365/2021/2024 BusinessPro Suite Installer</title>
+		<subtext>(Includes Word, Excel, PowerPoint, Outlook, OneNote, OneDrive, Teams, Defender Shim, and MAU)</subtext>
+		<moreinfo>N/A</moreinfo>
+		<version>16.91.0</version>
+		<cfbundleidentifier>com.microsoft.office</cfbundleidentifier>
+		<cfbundleshortversionstring>16.91 (24111020)</cfbundleshortversionstring>
+		<lastupdated>November 12, 2024</lastupdated>
+		<min_os>13.0</min_os>
+		<sha256>40d9cc4355fc1e3bb3c7d214ddcb3d5c87503030bf3ad8cad87df8f32b3c1d5d</sha256>
+		<download>https://go.microsoft.com/fwlink/?linkid=2009112</download>
+	</package>
+	<package>
+		<id>com.microsoft.word.standalone.365</id>
+		<title>Word 365/2021 Standalone Installer</title>
+		<subtext>N/A</subtext>
+		<moreinfo>N/A</moreinfo>
+		<version>16.91.0</version>
+		<cfbundleidentifier>com.microsoft.Word</cfbundleidentifier>
+		<cfbundleshortversionstring>16.91 (24111020)</cfbundleshortversionstring>
+		<lastupdated>November 12, 2024</lastupdated>
+		<min_os>13.0</min_os>
+		<sha256>7fab22d0a3304d2bd1fc9019c7e0481c637e44892e20500de72244feef191e9e</sha256>
+		<download>https://go.microsoft.com/fwlink/?linkid=525134</download>
+	</package>
+	<package>
+		<id>com.microsoft.excel.standalone.365</id>
+		<title>Excel 365/2021/2024 Standalone Installer</title>
+		<subtext>N/A</subtext>
+		<moreinfo>N/A</moreinfo>
+		<version>16.91.0</version>
+		<cfbundleidentifier>com.microsoft.Excel</cfbundleidentifier>
+		<cfbundleshortversionstring>16.91 (24111020)</cfbundleshortversionstring>
+		<lastupdated>November 12, 2024</lastupdated>
+		<min_os>13.0</min_os>
+		<sha256>30f65ea8b0c591e53ad6e22e0fff5de3e09197ddbef3729bb96fee6a2655d8de</sha256>
+		<download>https://go.microsoft.com/fwlink/?linkid=525135</download>
+	</package>
+	<package>
+		<id>com.microsoft.powerpoint.standalone.365</id>
+		<title>PowerPoint 365/2021/2024 Standalone Installer</title>
+		<subtext>N/A</subtext>
+		<moreinfo>N/A</moreinfo>
+		<version>16.91.0</version>
+		<cfbundleidentifier>com.microsoft.Powerpoint</cfbundleidentifier>
+		<cfbundleshortversionstring>16.91 (24111020)</cfbundleshortversionstring>
+		<lastupdated>November 12, 2024</lastupdated>
+		<min_os>13.0</min_os>
+		<sha256>1b2bac9fd9981bcd6729c737f5946b540fabac75c1a5946b1a32901304a0c20f</sha256>
+		<download>https://go.microsoft.com/fwlink/?linkid=525136</download>
+	</package>
+	<package>
+		<id>com.microsoft.outlook.standalone.365.weekly</id>
+		<title>Outlook 365/2021/2024 Standalone Installer (Weekly)</title>
+		<subtext>N/A</subtext>
+		<moreinfo>N/A</moreinfo>
+		<version>16.91.1</version>
+		<cfbundleidentifier>com.microsoft.Outlook</cfbundleidentifier>
+		<cfbundleshortversionstring>16.91.1 (24111613)</cfbundleshortversionstring>
+		<lastupdated>November 19, 2024</lastupdated>
+		<min_os>13.0</min_os>
+		<sha256>48c1ddd66aff35d4191117b3dcc5ea2e5aeafe59346c36f48ebfd9724c0c2bfc</sha256>
+		<download>https://go.microsoft.com/fwlink/?linkid=525137</download>
+	</package>
+	<package>
+		<id>com.microsoft.outlook.standalone.365.monthly</id>
+		<title>Outlook 365/2021/2024 Standalone Installer (Monthly)</title>
+		<subtext>N/A</subtext>
+		<moreinfo>N/A</moreinfo>
+		<version>16.91.0</version>
+		<cfbundleidentifier>com.microsoft.Outlook</cfbundleidentifier>
+		<cfbundleshortversionstring>16.91 (24111020)</cfbundleshortversionstring>
+		<lastupdated>November 12, 2024</lastupdated>
+		<min_os>13.0</min_os>
+		<sha256>ca1ddefe1b437437d5d870ce919cb509031564cbe7aa0b792af7705d4599fb8c</sha256>
+		<download>https://go.microsoft.com/fwlink/?linkid=2228621</download>
+	</package>
+	<package>
+		<id>com.microsoft.onenote.standalone.365</id>
+		<title>OneNote 365/2021/2024 Standalone Updater</title>
+		<subtext>N/A</subtext>
+		<moreinfo>N/A</moreinfo>
+		<version>16.91.1</version>
+		<cfbundleidentifier>com.microsoft.onenote.mac</cfbundleidentifier>
+		<cfbundleshortversionstring>16.91.1 (24111613)</cfbundleshortversionstring>
+		<lastupdated>November 19, 2024</lastupdated>
+		<min_os>13.0</min_os>
+		<sha256>d06ed77926075074c53e63b64534d4c6d0812cfb83b267412ee66350a980f5b5</sha256>
+		<download>https://go.microsoft.com/fwlink/?linkid=820886</download>
+	</package>
+	<package>
+		<id>com.microsoft.onedrive.standalone</id>
+		<title>OneDrive Standalone Installer</title>
+		<subtext>N/A</subtext>
+		<moreinfo>https://support.microsoft.com/en-us/office/onedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0#OSVersion=Mac</moreinfo>
+		<version>24211.1020.0001</version>
+		<cfbundleidentifier>com.microsoft.OneDrive</cfbundleidentifier>
+		<cfbundleshortversionstring>24211.1020.0001</cfbundleshortversionstring>
+		<lastupdated>November 20, 2024</lastupdated>
+		<min_os>13.0</min_os>
+		<sha256>52feb5a94c66bd99b805da95b7c84f741535b5e4c71b9d26db31db30a95da233</sha256>
+		<download>https://go.microsoft.com/fwlink/?linkid=823060</download>
+	</package>
+	<package>
+		<id>com.microsoft.skypeforbusiness.standalone</id>
+		<title>Skype for Business Standalone Installer</title>
+		<subtext>N/A</subtext>
+		<moreinfo>https://support.microsoft.com/en-us/office/follow-the-latest-updates-in-skype-for-business-cece9f93-add1-4d93-9a38-56cc598e5781?ui=en-us&rs=en-us&ad=us</moreinfo>
+		<version>16.31.11</version>
+		<cfbundleidentifier>com.microsoft.SkypeForBusiness</cfbundleidentifier>
+		<cfbundleshortversionstring>16.31.11</cfbundleshortversionstring>
+		<lastupdated>September 9, 2024</lastupdated>
+		<min_os>10.14</min_os>
+		<sha256>81f484842e86a39c9f33abc4d35b4e7dbb87189ca3c424a6396e15d96ea2dbd5</sha256>
+		<download>https://go.microsoft.com/fwlink/?linkid=832978</download>
+	</package>
+	<package>
+		<id>com.microsoft.teams2.standalone</id>
+		<title>Teams Standalone Installer</title>
+		<subtext>N/A</subtext>
+		<moreinfo>https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de</moreinfo>
+		<version>24295.606.3238.6194</version>
+		<cfbundleidentifier>com.microsoft.teams2</cfbundleidentifier>
+		<cfbundleshortversionstring>24295.606.3238.6194</cfbundleshortversionstring>
+		<lastupdated>November 12, 2024</lastupdated>
+		<min_os>12.0</min_os>
+		<sha256>fccf2c82a08f23ba424147c2753e82e72a24d78146d10a50f6e035e37b0a4f9b</sha256>
+		<download>https://go.microsoft.com/fwlink/?linkid=2249065</download>
+	</package>
+	<package>
+		<id>com.microsoft.intunecompanyportal.standalone</id>
+		<title>Intune Company Portal Standalone Installer</title>
+		<subtext>N/A</subtext>
+		<moreinfo>https://aka.ms/intuneupdates</moreinfo>
+		<version>5.2409.1</version>
+		<cfbundleidentifier>com.microsoft.CompanyPortalMac</cfbundleidentifier>
+		<cfbundleshortversionstring>5.2409.1</cfbundleshortversionstring>
+		<lastupdated>November 18, 2024</lastupdated>
+		<min_os>11.0</min_os>
+		<sha256>23c246dae679631160a35235b726367a8c6660ed34d1b4d6d131a8ecef0c44f2</sha256>
+		<download>https://go.microsoft.com/fwlink/?linkid=869655</download>
+	</package>
+	<package>
+		<id>com.microsoft.edge</id>
+		<title>Edge Stable Channel Installer</title>
+		<subtext>N/A</subtext>
+		<moreinfo>https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnote-stable-channel</moreinfo>
+		<version>131.0.2903.70</version>
+		<cfbundleidentifier>com.microsoft.edgemac</cfbundleidentifier>
+		<cfbundleshortversionstring>131.0.2903.70</cfbundleshortversionstring>
+		<lastupdated>November 25, 2024</lastupdated>
+		<min_os>11.0</min_os>
+		<sha256>65f26eef0b27bac3dcf6a15beef9d606fa1b9bd72ba2878bea7421d8e7395441</sha256>
+		<download>https://go.microsoft.com/fwlink/?linkid=2093504</download>
+	</package>
+	<package>
+		<id>com.microsoft.defender.standalone</id>
+		<title>Defender Standalone Installer</title>
+		<subtext>N/A</subtext>
+		<moreinfo>https://learn.microsoft.com/microsoft-365/security/defender-endpoint/mac-whatsnew</moreinfo>
+		<version>101.24092.0004</version>
+		<cfbundleidentifier>com.microsoft.wdav</cfbundleidentifier>
+		<cfbundleshortversionstring>101.24092.0004</cfbundleshortversionstring>
+		<lastupdated>October 1, 2024</lastupdated>
+		<min_os>12.0</min_os>
+		<sha256>1c2afefa61b76d203cd5183c2f019e8345cf2b299b6179a9df483e5ed57bac5f</sha256>
+		<download>https://go.microsoft.com/fwlink/?linkid=2097502</download>
+	</package>
+	<package>
+		<id>com.microsoft.windows.app.standalone</id>
+		<title>Windows App Standalone Installer</title>
+		<subtext>N/A</subtext>
+		<moreinfo>https://learn.microsoft.com/en-us/windows-app/whats-new?tabs=macos</moreinfo>
+		<version>11.0.7</version>
+		<cfbundleidentifier>com.microsoft.rdc.macos</cfbundleidentifier>
+		<cfbundleshortversionstring>11.0.7</cfbundleshortversionstring>
+		<lastupdated>November 24, 2024</lastupdated>
+		<min_os>12.0</min_os>
+		<sha256>86041c4922eda7dfffe222f122f7478d1a704581babad2a763f658897230fb2</sha256>
+		<download>https://go.microsoft.com/fwlink/?linkid=868963</download>
+	</package>
+	<package>
+		<id>com.microsoft.vscode.zip</id>
+		<title>Visual Studio Code</title>
+		<subtext>N/A</subtext>
+		<moreinfo>https://code.visualstudio.com/updates/</moreinfo>
+		<version>1.95.3</version>
+		<cfbundleidentifier>com.microsoft.VSCode</cfbundleidentifier>
+		<cfbundleshortversionstring>1.95.3</cfbundleshortversionstring>
+		<lastupdated>November 12, 2024</lastupdated>
+		<min_os>12.0</min_os>
+		<sha256>2b7788d17d2e0f3ac1fc684b126fa3739403fd2cdcd97e92ddcb738619f04aa9</sha256>
+		<download>https://go.microsoft.com/fwlink/?linkid=2156837</download>
+	</package>
+	<package>
+		<id>com.microsoft.autoupdate.standalone</id>
+		<title>Microsoft AutoUpdate (MAU) Standalone Installer</title>
+		<subtext>N/A</subtext>
+		<moreinfo>https://learn.microsoft.com/en-us/officeupdates/release-history-microsoft-autoupdate</moreinfo>
+		<version>4.76</version>
+		<cfbundleidentifier>com.microsoft.autoupdate2</cfbundleidentifier>
+		<cfbundleshortversionstring>4.76</cfbundleshortversionstring>
+		<lastupdated>October 15, 2024</lastupdated> 
+		<min_os>10.14</min_os>
+		<sha256>91fed0b500d85daf6e453bb7b2bee2948973781475c118c03c837e819a290fcc</sha256>
+		<download>https://go.microsoft.com/fwlink/?linkid=830196</download>
+	</package>
 </latest>
