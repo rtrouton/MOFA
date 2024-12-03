@@ -1,21 +1,17 @@
 # **Mac Admins Microsoft**
 
-This repository provides a centralized and up-to-date resource for Microsoft Office downloads on macOS, along with detailed support documentation for Mac administrators, stepping in to replace the now-defunct [**MacAdmins.software**](https://macadmins.software). A special thanks to [**Paul Bowden**](https://github.com/pbowden-msft) for his exceptional contributions to the Mac Admins community.  
+Welcome to the Mac Admins Microsoft repository! This centralized and up-to-date resource offers Microsoft Office downloads for macOS, along with comprehensive support documentation for Mac administrators. It aims to replace the now-defunct [**MacAdmins.software**](https://macadmins.software), and we would like to extend a special thanks to [**Paul Bowden**](https://github.com/pbowden-msft) for his exceptional contributions to the Mac Admins community.
 
-We welcome and encourage community engagement! Feel free to fork this repository, ask questions, or contribute additional information to ensure it remains accurate and valuable for everyone. Together, we can keep this resource thriving!
+We encourage active community participation—feel free to fork the repository, ask questions, or contribute additional insights to ensure its ongoing accuracy and usefulness. Together, we can keep this resource thriving for everyone.
 
-----
+### 🚀 **Current Work in Progress**
 
-### <sup>🚀 Current Work in Progress</sup>
+This project involves significant manual effort, as reliable automation for data extraction from the source is still being explored. Currently, I’m manually verifying entries, removing outdated information, and refining the data for accuracy and relevance. Once the foundational work is complete, ongoing updates will be straightforward and easily manageable.
 
-<sup>This project involves significant manual effort at first as I have yet to identify a reliable way to automate data extraction from the source (reliability). Currently, I am manually verifying information, removing outdated or irrelevant entries, and refining the data to ensure accuracy and relevance. <sup>
+We’re focused on:
 
-<sup>If you have suggestions or think something specific should be included, feel free to reach out—I’m happy to consider it! Once the foundational work is complete, ongoing updates will be straightforward and easily manageable.</sup>
-
-<sup>We are actively focusing on:</sup>
-
-<sup> - **Feature/Improvement:** Recreating Raw XML (Completed 12/3/24)</sup> <br>
-<sup> - **Feedback:** Actively seeking user feedback to determine if there is additional information to be moved over or included.</sup>
+- **Feature/Improvement:** Recreating Raw XML (Completed 12/3/24)
+- **Feedback:** Actively seeking user feedback to determine if additional information should be moved over or included. If you have suggestions, I’d love to hear from you!
 
 ## <img src="images/Microsoft_Logo_512px.png" alt="Download Image" width="20"></a> Microsoft Office Installers
 
@@ -116,35 +112,51 @@ For a detailed guide on how to create and manage PLIST files, refer to the [How 
 
 ### **Recommended Resources:**
 
-#### **1. Mac Admin Community-Driven Preferences List (Highly Recommended!)**:
+#### **<img src="images/MAF_Badge_4c.png" alt="Download Image" width="30"> Mac Admin Community-Driven Preferences List (Highly Recommended!)**:
 - [View Google Doc](https://docs.google.com/spreadsheets/d/1ESX5td0y0OP3jdzZ-C2SItm-TUi-iA_bcHCBvaoCumw/edit?gid=0#gid=0)
 
-#### **2. Official Microsoft Documentation:**
+#### **<img src="images/Microsoft_Logo_512px.png" alt="Download Image" width="20"> Official Microsoft Documentation:**
 
 - [General PLIST Preferences](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/deploy-preferences-for-office-for-mac)  
 - [App-Specific Preferences](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/set-preference-per-app)  
 - [Outlook Preferences](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/preferences-outlook)  
 - [Office Suite Preferences](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/preferences-office)
 
-## Contributing/Feedback to macadmins_msft
+## **Contributing and Providing Feedback**
 
-We welcome contributions to macadmins_msft! If you’d like to contribute or provide feedback:
+We warmly welcome your contributions and feedback to **macadmins_msft**! Here’s how you can get involved:
 
-- **Report Issues**: Submit an issue on our [GitHub Issues page](https://github.com/cocopuff2u/macadmins_msft/issues) for bug reports or feature requests.
-- **Join the Discussion**: Connect with me, cocopuff2u, on the [Mac Admins Slack Channel](https://macadmins.slack.com/) to discuss and collaborate.
-    - **Join Slack**: If you’re new to Slack, you can [sign up for a Mac Admin Slack account here](https://join.slack.com/t/macadmins/shared_invite/zt-2tq3md5zr-jDtuUFHAFa8CIBwPhpFfFQ).
-    - **Sign In**: Already have a Slack account? [Sign in here](https://macadmins.slack.com/).
-    - **Slack Channels**: Once in the Mac Admins Slack workspace, you can join various channels, including:
-        - `#microsoft-office`
-        - `#microsoft-autoupdate`
-        - `#microsoft-intune`
-        - `#microsoft-windows-app`
-        - `#microsoft-office-365`
-        - `#microsoft-teams`
-          
-- **Email**: Reach out directly at [cocopuff2u@yahoo.com](mailto:cocopuff2u@yahoo.com) for any inquiries.
-- **Share Feedback**: We welcome your suggestions and comments to help us improve. Your feedback is crucial, so please feel free to share your thoughts!
-- **Fork and Fix**: Want to contribute directly? Fork the repository, make your changes, and submit a pull request to help enhance the code.
+### 📋 **Report Issues**  
+Have a bug to report or a feature to request? Submit an issue on our [GitHub Issues page](https://github.com/cocopuff2u/macadmins_msft/issues).  
+
+### 💬 **Join the Discussion**  
+Connect and collaborate in the [GitHub Discussions](https://github.com/cocopuff2u/macadmins_msft/discussions) or the [Mac Admins Slack Channel](https://macadmins.slack.com/).  
+- **Reach Out Directly:** Contact me on Slack at `cocopuff2u` for direct collaboration or questions.
+- **New to Slack?** [Sign up here](https://join.slack.com/t/macadmins/shared_invite/zt-2tq3md5zr-jDtuUFHAFa8CIBwPhpFfFQ).  
+- **Existing User?** [Sign in here](https://macadmins.slack.com/).  
+- **Explore Slack Channels:**  
+    - `#microsoft-office`  
+    - `#microsoft-autoupdate`  
+    - `#microsoft-intune`  
+    - `#microsoft-windows-app`  
+    - `#microsoft-office-365`  
+    - `#microsoft-teams`  
+
+### ✉️ **Contact via Email**  
+For inquiries, reach out directly at [cocopuff2u@yahoo.com](mailto:cocopuff2u@yahoo.com).  
+
+### 🛠️ **Contribute Directly**  
+Fork the repository, make your changes, and submit a pull request—every contribution counts!  
+
+### 💡 **Share Your Feedback**  
+Help us improve! Share your ideas and suggestions in the [GitHub Discussions](https://github.com/cocopuff2u/macadmins_msft/discussions) or via email.
+
+### 🌟 **Support the Project**  
+Any contributions to this project go toward building a fully-featured URL for this site or are shared with the Mac Admins community to keep information accessible for everyone. If you’re feeling generous, you can also support the project by donating to my coffee fund. 
+
+I’m not here to make a profit—just here to ensure knowledge remains open and free for all.
+
+<a href="https://www.buymeacoffee.com/cocopuff2u"><img src="https://img.buymeacoffee.com/button-api/?text=Support This Project&emoji=💻&slug=cocopuff2u&button_colour=FFDD00&font_colour=000000&font_family=Bree&outline_colour=000000&coffee_colour=ffffff" style="height: 40px;" /></a>
 
 ## **Helpful Links**
 
