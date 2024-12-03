@@ -19,10 +19,10 @@ We are actively focusing on:
 
 ## <img src="images/Microsoft_Logo_512px.png" alt="Download Image" width="20"></a> Microsoft Office Installers
 
-<sub>All links below direct to Microsoft's official Content Delivery Network (CDN).</sub>
-<sub>The links provided will always download the latest version offered by Microsoft. However, the version information listed below reflects the version available at the time of this update.</sub>
+<sup>All links below direct to Microsoft's official Content Delivery Network (CDN).</sup>
+<sup>The links provided will always download the latest version offered by Microsoft. However, the version information listed below reflects the version available at the time of this update.</sup>
 
-<sub>_Last Updated: December 3, 2024 @ 10:30 AM Eastern Time_ [**_Raw XML_**](/latest.xml) </sub>
+<sup>_Last Updated: December 3, 2024 @ 10:30 AM Eastern Time_ [**_Raw XML_**](/latest.xml) </sup>
 
 | **Product Package** | **CFBundle Version** | **CFBundle Identifier** | **Download** |
 |----------------------|----------------------|--------------------------|--------------|
