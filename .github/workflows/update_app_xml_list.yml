@@ -24,7 +24,7 @@ jobs:
 
       - name: Run update script
         run: |
-          python3 microsoft_generate_update_xml.py
+          python3 .github/actions/microsoft_generate_update_xml.py
 
       - name: Commit changes (if any)
         env:
