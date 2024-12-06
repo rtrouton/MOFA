@@ -33,4 +33,4 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add .
           git commit -m "Update app XML files"
-          git push origin main
+          git push https://github-actions[bot]:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/cocopuff2u/macadmins_msft.git
