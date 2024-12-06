@@ -10,8 +10,8 @@ We encourage active community participation—feel free to fork the repository, 
 
 We’re focused on:
 
-- **Feature/Improvement:** Recreating Raw XML (Completed 12/3/24)
-- **Feature/Improvement:** Creating a workflow to automate information (In Progress)
+- **Feature/Improvement:** Automated latest.xml, Checks every 4 hours with microsoft sources (Completed)
+- **Feature/Improvement:** Automating work flow to update README.md (In Progress)
 - **Future:** Migrate to a full webpage (Waiting on funding/support 💸)
 - **Feedback:** Actively seeking user feedback to determine if additional information should be moved over or included. If you have suggestions, I’d love to hear from you!
 
