@@ -28,12 +28,9 @@ jobs:
           python3 microsoft_generate_update_xml.py 
 
       - name: Commit changes (if any)
-        env:
-          TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git remote set-url origin https://${TOKEN}@github.com/cocopuff2u/macadmins_msft.git
           git add .
           git commit -m "Update app XML files" || echo "No changes to commit"
-          git push origin main
+          git push https://github-actions[bot]:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/cocopuff2u/macadmins_msft.git
