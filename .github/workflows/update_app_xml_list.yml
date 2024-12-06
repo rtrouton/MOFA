@@ -1,0 +1,36 @@
+name: Update App XML Every 4 Hours
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'  # Runs every 4 hours
+  workflow_dispatch:
+
+jobs:
+  update_files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python environment
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+          pip install pytz
+
+      - name: Run update script
+        run: |
+          python3 microsoft_generate_update_xml.py 
+
+      - name: Commit changes (if any)
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          git commit -m "Update app XML files"
+          git push origin main
