@@ -1,19 +1,20 @@
-# **Mac Admins Microsoft**
+# **MOFA**
+**M**icrosoft **O**ffice **F**eed for **A**pple
 
-Welcome to the Mac Admins Microsoft repository! This centralized and up-to-date resource offers Microsoft Office downloads for macOS, along with comprehensive support documentation for Mac administrators. It aims to replace the now-defunct [**MacAdmins.software**](https://macadmins.software), and we would like to extend a special thanks to [**Paul Bowden**](https://github.com/pbowden-msft) for his exceptional contributions to the Mac Admins community.
+Welcome to the **MOFA** repository! This centralized and up-to-date resource offers Microsoft Office downloads for macOS, data feeds, along with comprehensive support documentation for Mac administrators. It aims to replace the now-defunct [**MacAdmins.software**](https://macadmins.software), and we would like to extend a special thanks to [**Paul Bowden**](https://github.com/pbowden-msft) for his exceptional contributions to the Mac Admins community.
 
 We encourage active community participation—feel free to fork the repository, ask questions, or contribute additional insights to ensure its ongoing accuracy and usefulness. Together, we can keep this resource thriving for everyone.
 
-### 🚀 **Current Work in Progress**
+### **Current Focus Areas**  
 
-~~This project involves significant manual effort, as reliable automation for data extraction from the source is still being explored.~~ (Found a full automated solution for pulling information) Currently, I’m verifying entries, removing outdated information, and refining the data for accuracy and relevance. Once the foundational work is complete, ongoing updates will be straightforward and easily manageable.
+- **✅ Feature/Improvement:** Automated `latest.xml` (Checks every 4 hours with Microsoft sources) – *Completed!*  
+- **🔄 Feature/Improvement:** Automating workflow to update `README.md` – *In Progress*  
+- **🚀 Future:** Adding more links/documentation – *Paused*  
+- **🚀 Future:** Migrate to a full webpage – *Waiting on funding/support 💸*
 
-We’re focused on:
+I’m not here to make a profit—just here to ensure knowledge remains open and free for all, check the button below to support MOFA:
 
-- **Feature/Improvement:** Automated latest.xml, Checks every 4 hours with microsoft sources (Completed)
-- **Feature/Improvement:** Automating work flow to update README.md (In Progress)
-- **Future:** Migrate to a full webpage (Waiting on funding/support 💸)
-- **Feedback:** Actively seeking user feedback to determine if additional information should be moved over or included. If you have suggestions, I’d love to hear from you!
+<a href="https://www.buymeacoffee.com/cocopuff2u"><img src="https://img.buymeacoffee.com/button-api/?text=Support This Project&emoji=💻&slug=cocopuff2u&button_colour=FFDD00&font_colour=000000&font_family=Bree&outline_colour=000000&coffee_colour=ffffff" style="height: 40px;" /></a>  
 
 ## <img src="images/Microsoft_Logo_512px.png" alt="Download Image" width="20"></a> Microsoft Office Installers
 
@@ -155,10 +156,6 @@ Help us improve! Share your ideas and suggestions in the [GitHub Discussions](ht
 
 ### 🌟 **Support the Project**  
 Any contributions to this project go toward building a fully-featured URL for this site or are shared with the Mac Admins community to keep information accessible for everyone. If you’re feeling generous, you can also support the project by donating to my coffee fund. 
-
-I’m not here to make a profit—just here to ensure knowledge remains open and free for all.
-
-<a href="https://www.buymeacoffee.com/cocopuff2u"><img src="https://img.buymeacoffee.com/button-api/?text=Support This Project&emoji=💻&slug=cocopuff2u&button_colour=FFDD00&font_colour=000000&font_family=Bree&outline_colour=000000&coffee_colour=ffffff" style="height: 40px;" /></a>
 
 ## **Helpful Links**
 
