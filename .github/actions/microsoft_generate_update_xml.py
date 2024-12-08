@@ -8,6 +8,7 @@ from datetime import datetime
 import time
 import pytz
 import re
+import yaml
 
 def get_current_date_time():
     # Get current UTC time and convert it to Eastern Time (or any other timezone)
@@ -577,3 +578,18 @@ with open(output_file, "w", encoding="utf-8") as f:
     f.write(pretty_xml)
 
 print(f"Combined and prettified XML generated: {output_file}")
+
+# Generate and save YAML output
+yaml_data = {
+    "last_updated": last_update_date_time,
+    "packages": [
+        {"name": app_name, "data": app_data["data"]}
+        for app_name, app_data in existing_data.items()
+    ],
+}
+
+yaml_output_file = "latest.yaml"
+with open(yaml_output_file, "w", encoding="utf-8") as yaml_file:
+    yaml.dump(yaml_data, yaml_file, default_flow_style=False)
+
+print(f"YAML output generated: {yaml_output_file}")
