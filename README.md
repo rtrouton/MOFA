@@ -21,7 +21,7 @@ I’m not here to make a profit—just here to ensure knowledge remains open and
 <sup>All links below direct to Microsoft's official Content Delivery Network (CDN).</sup>
 <sup>The links provided will always download the latest version offered by Microsoft. However, the version information listed below reflects the version available at the time of this update.</sup>
 
-<sup>_Last Updated: December 4, 2024 @ 9:20 AM Eastern Time_ [**_Raw XML_**](/latest.xml) </sup>
+<sup>_Last Updated: December 4, 2024 @ 9:20 AM Eastern Time [**_Raw XML_**](/latest.xml) [**_Raw YAML_**](/latest.yaml)_</sup> 
 
 | **Product Package** | **CFBundle Version** | **CFBundle Identifier** | **Download** |
 |----------------------|----------------------|--------------------------|--------------|
