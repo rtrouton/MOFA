@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <latest>
-    <last_updated>December 08, 2024 03:12 PM EST</last_updated>
+    <last_updated>December 08, 2024 06:37 PM EST</last_updated>
     <package>
         <name>Microsoft Office Suite</name>
         <application_id>Data sourced from Excel (not manually specified)</application_id>
@@ -101,17 +101,17 @@
     </package>
     <package>
         <name>OneDrive</name>
-        <application_id>ONDR18</application_id>
+        <application_id>OneDrive.app</application_id>
         <application_name>OneDrive.app</application_name>
         <CFBundleVersion>com.microsoft.onedrive</CFBundleVersion>
-        <short_version>24.101.0519</short_version>
-        <full_version>24101.0519</full_version>
-        <last_updated>May 30, 2024</last_updated>
-        <min_os>12.3</min_os>
-        <update_download>https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/OneDrive_24101.0519.0003.pkg</update_download>
-        <latest_download>https://go.microsoft.com/fwlink/?linkid=823060</latest_download>
-        <sha1>4ed45201687009dfc94ab8626fe3e02a6b648624</sha1>
-        <sha256>52feb5a94c66bd99b805da95b7c84f741535b5e4c71b9d26db31db30a95da233</sha256>
+        <short_version>24.221.1103</short_version>
+        <full_version>1103.0003</full_version>
+        <last_updated>December 08, 2024 06:37 PM EST</last_updated>
+        <min_os>N/A</min_os>
+        <update_download>https://oneclient.sfx.ms/Mac/Installers/24.221.1103.0003/OneDrive.pkg</update_download>
+        <latest_download>https://oneclient.sfx.ms/Mac/Installers/24.221.1103.0003/OneDrive.pkg</latest_download>
+        <sha1>8ac45f111d8abedd5ecdcb8c65f47c14175ce77e</sha1>
+        <sha256>eb51bce31b686281692a7aeacd8c0f017e9ba17f686cce989b125505be48028e</sha256>
     </package>
     <package>
         <name>Skype</name>
