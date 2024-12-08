@@ -579,17 +579,39 @@ with open(output_file, "w", encoding="utf-8") as f:
 
 print(f"Combined and prettified XML generated: {output_file}")
 
-# Generate and save YAML output
+# Generate and save YAML output in the same order as XML
 yaml_data = {
     "last_updated": last_update_date_time,
-    "packages": [
-        {"name": app_name, "data": app_data["data"]}
-        for app_name, app_data in existing_data.items()
-    ],
+    "packages": []
 }
 
+# Define the order of fields to match the XML
+field_order = [
+    "name",
+    "application_id",
+    "application_name",
+    "CFBundleVersion",
+    "short_version",
+    "full_version",
+    "last_updated",
+    "min_os",
+    "update_download",
+    "latest_download",
+    "sha1",
+    "sha256",
+]
+
+# Populate the packages list with ordered fields
+for app_name, app_data in existing_data.items():
+    package_data = {"name": app_name}  # Start with the app name
+    for field in field_order:
+        if field != "name":  # Avoid duplicating the "name" field
+            package_data[field] = app_data["data"].get(field, "N/A")
+    yaml_data["packages"].append(package_data)
+
+# Save the YAML file
 yaml_output_file = "latest.yaml"
 with open(yaml_output_file, "w", encoding="utf-8") as yaml_file:
-    yaml.dump(yaml_data, yaml_file, default_flow_style=False)
+    yaml.dump(yaml_data, yaml_file, default_flow_style=False, sort_keys=False)
 
 print(f"YAML output generated: {yaml_output_file}")
