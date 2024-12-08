@@ -1,6 +1,34 @@
 <?xml version="1.0" ?>
 <latest>
-    <last_updated>December 07, 2024 03:11 PM EST</last_updated>
+    <last_updated>December 07, 2024 07:06 PM EST</last_updated>
+    <package>
+        <name>Microsoft Office Suite</name>
+        <application_id>Data sourced from Excel (not manually specified)</application_id>
+        <application_name>Data sourced from Excel (not manually specified)</application_name>
+        <CFBundleVersion>com.microsoft.office</CFBundleVersion>
+        <short_version>16.91.0 (24111020)</short_version>
+        <full_version>https://go.microsoft.com/fwlink/?linkid=525133</full_version>
+        <last_updated>November 10, 2024</last_updated>
+        <min_os>13.0</min_os>
+        <update_download>N/A</update_download>
+        <latest_download>https://go.microsoft.com/fwlink/?linkid=525133</latest_download>
+        <sha1>fe32a66336cf61e3bc36b3aa392480224be7c4f1</sha1>
+        <sha256>86bb9dc49bcc0d8b632d37ad6743b15a4c2caaa1b8a76029167a720d356a884d</sha256>
+    </package>
+    <package>
+        <name>Microsoft BusinessPro Suite</name>
+        <application_id>Data sourced from Excel (not manually specified)</application_id>
+        <application_name>Data sourced from Excel (not manually specified)</application_name>
+        <CFBundleVersion>com.microsoft.office</CFBundleVersion>
+        <short_version>16.91.0 (24111020)</short_version>
+        <full_version>https://go.microsoft.com/fwlink/?linkid=2009112</full_version>
+        <last_updated>November 10, 2024</last_updated>
+        <min_os>13.0</min_os>
+        <update_download>N/A</update_download>
+        <latest_download>https://go.microsoft.com/fwlink/?linkid=2009112</latest_download>
+        <sha1>2ca48ebbf8eab74474129ddbfedbfb730447982b</sha1>
+        <sha256>40d9cc4355fc1e3bb3c7d214ddcb3d5c87503030bf3ad8cad87df8f32b3c1d5d</sha256>
+    </package>
     <package>
         <name>Word</name>
         <application_id>MSWD2019</application_id>
