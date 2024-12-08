@@ -25,6 +25,40 @@ print(last_update_date_time)
 
 # Define app-specific configurations
 apps = {
+    "Microsoft Office Suite": {
+        "url": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/0409XCEL2019.xml",
+        "manual_entries": {
+            "CFBundleVersion": "com.microsoft.office",
+            "latest_download": "https://go.microsoft.com/fwlink/?linkid=525133",
+            "full_version": "https://go.microsoft.com/fwlink/?linkid=525133",
+            "application_id": "Data sourced from Excel (not manually specified)",
+            "application_name": "Data sourced from Excel (not manually specified)",
+        },
+        "keys": {
+            "short_version": "Title",
+            "full_version": "Update Version",
+            "update_download": "NA",
+            "last_updated": "Date",
+            "min_os": "Minimum OS"
+        }
+    },
+    "Microsoft BusinessPro Suite": {
+        "url": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/0409XCEL2019.xml",
+        "manual_entries": {
+            "CFBundleVersion": "com.microsoft.office",
+            "latest_download": "https://go.microsoft.com/fwlink/?linkid=2009112",
+            "full_version": "https://go.microsoft.com/fwlink/?linkid=2009112",
+            "application_id": "Data sourced from Excel (not manually specified)",
+            "application_name": "Data sourced from Excel (not manually specified)",
+        },
+        "keys": {
+           "short_version": "Title",
+            "full_version": "Update Version",
+            "update_download": "NA",
+            "last_updated": "Date",
+            "min_os": "Minimum OS"
+        }
+    },    
     "Word": {
         "url": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/0409MSWD2019.xml",
         "manual_entries": {
