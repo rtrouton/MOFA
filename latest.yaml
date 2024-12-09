@@ -1,4 +1,4 @@
-last_updated: December 09, 2024 07:46 AM EST
+last_updated: December 09, 2024 09:08 AM EST
 packages:
 - name: Microsoft Office Suite
   application_id: Data sourced from Excel (not manually specified)
@@ -90,7 +90,7 @@ packages:
   CFBundleVersion: com.microsoft.onedrive
   short_version: 24.221.1103
   full_version: '1103.0003'
-  last_updated: December 09, 2024 07:46 AM EST
+  last_updated: December 09, 2024 09:08 AM EST
   min_os: N/A
   update_download: https://oneclient.sfx.ms/Mac/Installers/24.221.1103.0003/OneDrive.pkg
   latest_download: https://oneclient.sfx.ms/Mac/Installers/24.221.1103.0003/OneDrive.pkg
@@ -213,9 +213,9 @@ packages:
   last_updated: September 10, 2023
   min_os: '11.0'
   update_download: https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OfficeLicensingHelper_16.77.23091003_Updater.pkg
-  latest_download: https://go.microsoft.com/fwlink/p/?linkid=2181269
-  sha1: 75b268fb926b37f931deb4e0a0d6751651a13fa6
-  sha256: fc6b105b5c2aa33b11a183fe427aa4ba4e3dfbbc2c7887f558f05fc00bdc3358
+  latest_download: https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OfficeLicensingHelper_16.77.23091003_Updater.pkg
+  sha1: cc58741e0243b5fb0682ca499b07c3a21060bb52
+  sha256: 2ef5b5006534c0d20d46c7353f42a0dc1faff7d53ba89a3151ccf5102c059905
 - name: Quick Assist
   application_id: MSQA01
   application_name: Microsoft Quick Assist.app
@@ -225,9 +225,9 @@ packages:
   last_updated: November 12, 2024
   min_os: '12.0'
   update_download: https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Quick_Assist_1.0.2411113_updater.pkg
-  latest_download: https://go.microsoft.com/fwlink/?linkid=2181269
-  sha1: 75b268fb926b37f931deb4e0a0d6751651a13fa6
-  sha256: fc6b105b5c2aa33b11a183fe427aa4ba4e3dfbbc2c7887f558f05fc00bdc3358
+  latest_download: https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Quick_Assist_1.0.2411113_updater.pkg
+  sha1: 49db1be5bbb8091ea260631247d7de93c49afb9c
+  sha256: 2fdab5e1815862c9b3583257c485b088aa46c86e5609cad09bfa13a3a092a0e1
 - name: Remote Help
   application_id: MSRH01
   application_name: Microsoft Remote Help.app
@@ -237,6 +237,6 @@ packages:
   last_updated: November 12, 2024
   min_os: '12.0'
   update_download: https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Remote_Help_1.0.2411113_updater.pkg
-  latest_download: https://go.microsoft.com/fwlink/?linkid=2181269
-  sha1: 75b268fb926b37f931deb4e0a0d6751651a13fa6
-  sha256: fc6b105b5c2aa33b11a183fe427aa4ba4e3dfbbc2c7887f558f05fc00bdc3358
+  latest_download: https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Remote_Help_1.0.2411113_updater.pkg
+  sha1: 259da45d79ba21c4988138ed6471ad7f26d8ec74
+  sha256: 0fb298a8cbf6d58a9846b639e1b8581085993f184fbc823448ef5d6bbb4467b6
