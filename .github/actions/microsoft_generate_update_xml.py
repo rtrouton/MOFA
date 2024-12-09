@@ -45,7 +45,6 @@ apps = {
         "manual_entries": {
             "CFBundleVersion": "com.microsoft.office",
             "latest_download": "https://go.microsoft.com/fwlink/?linkid=525133",
-            "full_version": "https://go.microsoft.com/fwlink/?linkid=525133",
             "application_id": "Data sourced from Excel (not manually specified)",
             "application_name": "Data sourced from Excel (not manually specified)",
         },
@@ -62,7 +61,6 @@ apps = {
         "manual_entries": {
             "CFBundleVersion": "com.microsoft.office",
             "latest_download": "https://go.microsoft.com/fwlink/?linkid=2009112",
-            "full_version": "https://go.microsoft.com/fwlink/?linkid=2009112",
             "application_id": "Data sourced from Excel (not manually specified)",
             "application_name": "Data sourced from Excel (not manually specified)",
         },
