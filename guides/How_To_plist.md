@@ -36,15 +36,24 @@ To create a `.plist` file from scratch for configuring Microsoft Outlook prefere
 
 ### **2. Location of .plist Files on macOS**
 
-The location of `.plist` files depends on whether the preferences are user-specific or managed by MDM.
+The location of `.plist` files depends on whether the preferences are user-specific, computer specific or managed by MDM.
 
-- **For User Preferences (Local, Unmanaged):**
+- **For User Preferences (Local, Unmanaged):**  
+    *These will apply to a specific local user account.*  
   ```plaintext
   ~/Library/Preferences/com.microsoft.Outlook.plist
   ```
   This file contains the user-specific settings for Outlook.
 
-- **For Managed Preferences (Deployed via MDM):**
+- **For Computer Preferences (Local, Managed via scripts or manually applied):**   
+    *These will apply to all local user accounts.*  
+  ```plaintext
+  /Library/Preferences/com.microsoft.Outlook.plist
+  ```
+  This file contains the computer-specific settings for Outlook.
+
+- **For Managed Preferences (Deployed via MDM):**  
+    *These will apply to all local user accounts.*  
   ```plaintext
   /Library/Managed Preferences/com.microsoft.Outlook.plist
   ```
@@ -52,11 +61,12 @@ The location of `.plist` files depends on whether the preferences are user-speci
 
 ---
 
-### **3. Deploying via MDM: Jamf Pro or Intune**
+### **3. Managed Preferences Deployed via MDM:**
 
-Once you've created your `.plist` file, you can deploy it using **Jamf Pro** or **Intune**.
+Once you've created your `.plist` file, you can deploy it using **Jamf Pro** or **Intune** or **some other mdm**.  
 
-#### **Option 1: Jamf Pro**
+
+#### **Jamf Pro**
 1. **Create a Configuration Profile:**
    - Log in to **Jamf Pro**.
    - Navigate to **Configuration Profiles** > **New**.
@@ -69,22 +79,72 @@ Once you've created your `.plist` file, you can deploy it using **Jamf Pro** or 
 3. **Deploy:**
    - Save the profile. Devices will apply the configuration during the next MDM sync.
 
----
+    ---
 
-#### **Option 2: Microsoft Intune**
-1. **Prepare the Configuration Profile:**
-   - Wrap the `.plist` file into a `.mobileconfig` profile. Tools like **Profile Creator** can help with this.
+#### **Microsoft Intune** (3 ways to manage your settings. Pick 1 that suits your needs.)
+1. **The recommended way to manage configuration for Mac or iOS devices is to using the Settings Catalog**
+   - No need to manually create a `.plist` file.
+   - Nearly all settings are available in a GUI to pick and choose what you want to manage.
+   - Create your Settings Catalog Configuration:  
+       - Log in to **Microsoft Intune Admin Center**.  
+       - Go to **Devices** > **macOS** > **Configuration Profiles** > **Create Profile**.  
+       - Choose **Settings Catalog** and pick the settings you would like to manage.  
 
-2. **Upload to Intune:**
-   - Log in to **Microsoft Endpoint Manager Admin Center**.
-   - Go to **Devices** > **macOS** > **Configuration Profiles** > **Create Profile**.
-   - Choose **Templates** > **Custom** and upload the `.mobileconfig` file.
+   - You can see the complete list of Settings Catalog settings keys in this repo (filter the latest Excel file for Mac or iOS):
+       [https://github.com/IntunePMFiles/DeviceConfig](https://github.com/IntunePMFiles/DeviceConfig) (Goes way beyond just Microsoft apps.)
+   - Intune documentation on working with settings catalog configuration:  
+       [https://learn.microsoft.com/en-us/mem/intune/configuration/settings-catalog](https://learn.microsoft.com/en-us/mem/intune/configuration/settings-catalog)  
 
-3. **Assign Scope:**
-   - Assign the profile to the appropriate user or device groups.
+2. **Preference Files**
+   - If you find a preference key that is not yet supported in the Setting Catalog, or you like manually editing the XML, you can use a standard `.plist` file with a little bit of doctoring.
+   - The files are essentially just macOS plist files with the opening and closing key tags removed.  
+   
+   *Opening keys:*  
+`<?xml version="1.0" encoding="UTF-8"?>`  
+`<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">`  
+`<plist version="1.0">`  
+`<dict>`  
 
-4. **Deploy:**
-   - Save and assign the profile. Devices will sync and apply the configuration during their next check-in.
+  
+   *Closing keys:*  
+`</dict>`  
+`</plist>`  
+   
+   You should end up with a file like this: (Only the keys and values. Intune will wrap it for you and deliver it as a mobileconfig.)
+   
+   `<key>SomeKey</key>`  
+   `<string>someString</string>`  
+   `<key>AnotherKey</key>`  
+   `<false/>`  
+   - Save your edited file as `.txt` or `.xml`.  
+   - Upload your Intune Preference File:  
+       - Log in to **Microsoft Intune Admin Center**.  
+       - Go to **Devices** > **macOS** > **Configuration Profiles** > **Create Profile**.  
+       - Choose **Templates** > **Preference file** and upload the `.xml` file.  
+   - You can add this above and beyond the Setting Catalog for new keys that they have not added yet.
+   - If you deploy both, do not duplicate settings keys between the two configurations. (Keys must be unique.)
+   - Intune documentation on working with preference files:  
+[https://learn.microsoft.com/en-us/mem/intune/configuration/preference-file-settings-macos](https://learn.microsoft.com/en-us/mem/intune/configuration/preference-file-settings-macos)
+
+
+
+
+3. **Prepare the a Custom Configuration Profile:**
+   - You can always fall back to a custom file by wrapping the `.plist` file into a `.mobileconfig` profile with a tools like **Profile Creator**.
+   - Or use the built in settings in **iMazing Profile Editor** to create the custom configuration profile.
+   - Upload your Custom Configuration Profile:  
+      - Log in to **Microsoft Intune Admin Center**.  
+      - Go to **Devices** > **macOS** > **Configuration Profiles** > **Create Profile**.  
+      - Choose **Templates** > **Custom** and upload the `.mobileconfig` file.  
+       
+   - Intune documentation on working with custom files:  
+[https://learn.microsoft.com/en-us/mem/intune/configuration/custom-settings-macos](https://learn.microsoft.com/en-us/mem/intune/configuration/custom-settings-macos)
+
+4. **After any of the above three options**
+   - Assign Scope:  
+       - Assign the profile to the appropriate user or device groups.  
+   - Deploy:
+       - Save and assign the profile. Devices will sync and apply the configuration during their next check-in.
 
 ---
 
@@ -123,7 +183,7 @@ After deploying the `.plist` file, validate the configuration to ensure the sett
 
 3. **Review Logs:**
    - **Jamf Pro:** Check the deployment status in the Jamf Pro dashboard.
-   - **Intune:** Review deployment reports in the Endpoint Manager Admin Center.
+   - **Intune:** Review deployment reports in the [Intune Admin Center](http://intune.microsoft.com).
 
 ---
 
