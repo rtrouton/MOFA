@@ -1,4 +1,4 @@
-last_updated: December 08, 2024 06:37 PM EST
+last_updated: December 08, 2024 07:12 PM EST
 packages:
 - name: Microsoft Office Suite
   application_id: Data sourced from Excel (not manually specified)
@@ -85,17 +85,17 @@ packages:
   sha1: 721aeb8db083d6655e3ee4634bf95173689a898d
   sha256: d06ed77926075074c53e63b64534d4c6d0812cfb83b267412ee66350a980f5b5
 - name: OneDrive
-  application_id: ONDR18
+  application_id: OneDrive.app
   application_name: OneDrive.app
   CFBundleVersion: com.microsoft.onedrive
-  short_version: 24.101.0519
-  full_version: '24101.0519'
-  last_updated: May 30, 2024
-  min_os: '12.3'
-  update_download: https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/OneDrive_24101.0519.0003.pkg
-  latest_download: https://go.microsoft.com/fwlink/?linkid=823060
-  sha1: 4ed45201687009dfc94ab8626fe3e02a6b648624
-  sha256: 52feb5a94c66bd99b805da95b7c84f741535b5e4c71b9d26db31db30a95da233
+  short_version: 24.221.1103
+  full_version: '1103.0003'
+  last_updated: December 08, 2024 07:12 PM EST
+  min_os: N/A
+  update_download: https://oneclient.sfx.ms/Mac/Installers/24.221.1103.0003/OneDrive.pkg
+  latest_download: https://oneclient.sfx.ms/Mac/Installers/24.221.1103.0003/OneDrive.pkg
+  sha1: 8ac45f111d8abedd5ecdcb8c65f47c14175ce77e
+  sha256: eb51bce31b686281692a7aeacd8c0f017e9ba17f686cce989b125505be48028e
 - name: Skype
   application_id: MSFB16
   application_name: Skype for Business.app
