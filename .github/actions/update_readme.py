@@ -58,7 +58,8 @@ We encourage active community participation—feel free to fork the repository, 
 
 - **✅ Feature/Improvement:** Automated `latest.xml` (Checks every 4 hours with Microsoft sources) – *Completed!*  
 - **✅ Feature/Improvement:** Automating workflow to update `README.md` – *Completed!* 
-- **🔄 Feature/Improvement:** Adding more links/documentation – *In Progress*  
+- **🔄 Feature/Improvement:** Adding more links/documentation – *In Progress*
+- **🚀 Future:** Add iOS/MacOS AppStore Info – *Upcoming*
 - **🚀 Future:** Migrate to a full webpage – *Waiting on funding/support 💸*
 
 I’m not here to make a profit—just here to ensure knowledge remains open and free for all, check the button below to support MOFA:
