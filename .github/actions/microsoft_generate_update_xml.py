@@ -331,10 +331,10 @@ apps = {
         "url": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/0409OLIC02.xml",
         "manual_entries": {
             "CFBundleVersion": "com.microsoft.office.licensingV2.helper",
-            "latest_download": "https://go.microsoft.com/fwlink/p/?linkid=2181269",
             "application_name": "N/A",
         },
         "keys": {
+            "latest_download": "Location",
             "application_id": "Application ID",
             "short_version": "Title",
             "full_version": "Update Version",
@@ -347,9 +347,9 @@ apps = {
         "url": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/0409MSQA01.xml",
         "manual_entries": {
             "CFBundleVersion": "com.microsoft.quickassist",
-            "latest_download": "https://go.microsoft.com/fwlink/?linkid=2181269",
         },
         "keys": {
+            "latest_download": "Location",
             "application_id": "Application ID",
             "application_name": "Application Name",
             "latest_download": "Location",
@@ -363,10 +363,10 @@ apps = {
     "Remote Help": {
         "url": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/0409MSRH01.xml",
         "manual_entries": {
-            "CFBundleVersion": "com.microsoft.remotehelp",
-            "latest_download": "https://go.microsoft.com/fwlink/?linkid=2181269",
+            "CFBundleVersion": "com.microsoft.remotehelp"
         },
         "keys": {
+            "latest_download": "Location",
             "application_id": "Application ID",
             "application_name": "Application Name",
             "latest_download": "Location",
