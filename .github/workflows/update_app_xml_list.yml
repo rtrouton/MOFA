@@ -33,5 +33,5 @@ jobs:
           git config --global user.name 'cocopuff2u'
           git config --global user.email 'cocopuff2u@yahoo.com'
           git add latest.xml latest.yaml
-          git commit -m "Update app XML and YAML files" || echo "No changes to commit"
+          git commit -m "Auto updating app XML and YAML files" || echo "No changes to commit"
           git push https://github-actions[bot]:$TOKEN@github.com/cocopuff2u/macadmins_msft.git
