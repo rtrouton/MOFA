@@ -635,7 +635,7 @@ yaml_data = {
 # Define the order of fields to match the XML
 field_order = [
     "name",
-    "application_id",
+    "application_id", 
     "application_name",
     "CFBundleVersion",
     "short_version",
@@ -648,17 +648,30 @@ field_order = [
     "sha256",
 ]
 
-# Populate the packages list with ordered fields
-for app_name, app_data in existing_data.items():
-    package_data = {"name": app_name}  # Start with the app name
-    for field in field_order:
-        if field != "name":  # Avoid duplicating the "name" field
-            package_data[field] = app_data["data"].get(field, "N/A")
-    yaml_data["packages"].append(package_data)
+# Read the XML file
+xml_file = "latest.xml"
+if os.path.exists(xml_file):
+    tree = ET.parse(xml_file)
+    xml_root = tree.getroot()
+    
+    # Extract packages from XML
+    for package in xml_root.findall("package"):
+        package_data = {"name": package.find("name").text}
+        for field in field_order:
+            if field != "name":
+                element = package.find(field)
+                package_data[field] = element.text if element is not None else "N/A"
+        yaml_data["packages"].append(package_data)
 
 # Save the YAML file
 yaml_output_file = "latest.yaml"
+
+# Delete existing YAML file if it exists
+if os.path.exists(yaml_output_file):
+    os.remove(yaml_output_file)
+
+# Write the YAML data to the file
 with open(yaml_output_file, "w", encoding="utf-8") as yaml_file:
     yaml.dump(yaml_data, yaml_file, default_flow_style=False, sort_keys=False)
 
-logging.info(f"YAML output generated: {yaml_output_file}")
+logging.info(f"YAML output generated from XML: {yaml_output_file}")
