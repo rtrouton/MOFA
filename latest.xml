@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <latest>
-    <last_updated>December 09, 2024 09:08 AM EST</last_updated>
+    <last_updated>December 09, 2024 11:05 AM EST</last_updated>
     <package>
         <name>Microsoft Office Suite</name>
         <application_id>Data sourced from Excel (not manually specified)</application_id>
@@ -106,7 +106,7 @@
         <CFBundleVersion>com.microsoft.onedrive</CFBundleVersion>
         <short_version>24.221.1103</short_version>
         <full_version>1103.0003</full_version>
-        <last_updated>December 09, 2024 09:08 AM EST</last_updated>
+        <last_updated>December 09, 2024 11:05 AM EST</last_updated>
         <min_os>N/A</min_os>
         <update_download>https://oneclient.sfx.ms/Mac/Installers/24.221.1103.0003/OneDrive.pkg</update_download>
         <latest_download>https://oneclient.sfx.ms/Mac/Installers/24.221.1103.0003/OneDrive.pkg</latest_download>
@@ -224,6 +224,20 @@
         <latest_download>https://go.microsoft.com/fwlink/?linkid=868963</latest_download>
         <sha1>b725a983227a62e782190254a26211517fffaafc</sha1>
         <sha256>9e4fbd4d82cbede7a26d442267e660ea68245733ce5ac9717d694346bc09fef3</sha256>
+    </package>
+    <package>
+        <name>Visual</name>
+        <application_id>N/A</application_id>
+        <application_name>Visual Studio Code.app</application_name>
+        <CFBundleVersion>com.microsoft.visualstudio</CFBundleVersion>
+        <short_version>1.95.3</short_version>
+        <full_version>1.95.3</full_version>
+        <last_updated>November 13, 2024</last_updated>
+        <min_os>N/A</min_os>
+        <update_download>https://vscode.download.prss.microsoft.com/dbazure/download/stable/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/VSCode-darwin-universal.zip</update_download>
+        <latest_download>https://go.microsoft.com/fwlink/?linkid=2156837</latest_download>
+        <sha1>9e4ce9c3693d41d05d8eff3d4096407e11c661b6</sha1>
+        <sha256>2b7788d17d2e0f3ac1fc684b126fa3739403fd2cdcd97e92ddcb738619f04aa9</sha256>
     </package>
     <package>
         <name>MAU</name>
