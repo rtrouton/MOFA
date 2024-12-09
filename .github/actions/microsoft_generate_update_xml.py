@@ -530,6 +530,20 @@ def find_key_value(element, key_name):
                 return value
     return "N/A"
 
+# Function to process JSON data
+def process_json_data(app_data, config):
+    extracted_data = {}
+    for field, key in config["keys"].items():
+        extracted_data[field] = app_data.get(key, "N/A")
+
+    last_updated = extracted_data.get("last_updated", "N/A")
+    extracted_data["last_updated"] = convert_last_updated(last_updated)
+
+    if 'short_version' in extracted_data:
+        extracted_data["short_version"] = re.sub(r'[a-zA-Z]', '', extracted_data["short_version"]).lstrip()
+
+    return extracted_data
+
 # Function to compute SHA1 hash
 def compute_sha1(url):
     try:
