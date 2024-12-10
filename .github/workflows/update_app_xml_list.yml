@@ -1,4 +1,4 @@
-name: Update App XML Every 4 Hours
+name: Update Standalone Latest Every 4 Hours
 
 on:
   schedule:
@@ -24,7 +24,7 @@ jobs:
 
       - name: Run update script
         run: |
-          python3 .github/actions/microsoft_generate_update_xml.py
+          python3 .github/actions/generate_standalone_latest.py
 
       - name: Commit changes (if any)
         env:
