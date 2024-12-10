@@ -1,4 +1,4 @@
-name: Update README Every 4 Hours with XML data
+name: Auto Update README Every 4 Hours
 
 on:
   schedule:

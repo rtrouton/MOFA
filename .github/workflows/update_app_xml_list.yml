@@ -1,4 +1,4 @@
-name: Update Standalone Latest Every 4 Hours
+name: Auto Update Standalone XML Every 4 Hours
 
 on:
   schedule:
