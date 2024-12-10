@@ -61,7 +61,7 @@ We encourage active community participation—feel free to fork the repository, 
 - **⏸️ Feature/Improvement:** Adding more links/documentation – *Paused* (Community support needed! 🆘)
 - **🔄 Feature/Improvement:**  Add iOS/MacOS AppStore Info – *In Progress*
 - **⏸️ Future:** Add JSON Output – *Paused* (Waiting on iOS/MacOS AppStore Info)
-- **🚀 Future:** GitHub webpage with custom domain – *Waiting on funding/support/time 💸*
+- **🚀 Future:** GitHub webpage with custom domain – *Waiting on funding/support 💸*
 
 I’m not here to make a profit—just here to ensure knowledge remains open and free for all, check the button below to support MOFA:
 
