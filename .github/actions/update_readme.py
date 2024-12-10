@@ -54,7 +54,7 @@ Welcome to the **MOFA** repository! This centralized and up-to-date resource off
 
 We encourage active community participation—feel free to fork the repository, ask questions, or contribute additional insights to ensure its ongoing accuracy and usefulness. Together, we can keep this resource thriving for everyone.
 
-### **Current Focus Areas**  
+### 🌟 **Current Focus Areas**  
 
 - **✅ Feature/Improvement:** Automated `latest.xml` (Checks every 4 hours with Microsoft sources) – *Completed!*  
 - **✅ Feature/Improvement:** Automating workflow to update `README.md` – *Completed!* 
