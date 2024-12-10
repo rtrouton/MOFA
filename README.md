@@ -5,13 +5,14 @@ Welcome to the **MOFA** repository! This centralized and up-to-date resource off
 
 We encourage active community participation—feel free to fork the repository, ask questions, or contribute additional insights to ensure its ongoing accuracy and usefulness. Together, we can keep this resource thriving for everyone.
 
-### **Current Focus Areas**  
+### 🌟 **Current Focus Areas**  
 
 - **✅ Feature/Improvement:** Automated `latest.xml` (Checks every 4 hours with Microsoft sources) – *Completed!*  
 - **✅ Feature/Improvement:** Automating workflow to update `README.md` – *Completed!* 
-- **🔄 Feature/Improvement:** Adding more links/documentation – *In Progress*
-- **🚀 Future:** Add iOS/MacOS AppStore Info – *Upcoming*
-- **🚀 Future:** Migrate to a full webpage – *Waiting on funding/support 💸*
+- **⏸️ Feature/Improvement:** Adding more links/documentation – *Paused* (Community support needed! 🆘)
+- **🔄 Feature/Improvement:**  Add iOS/MacOS AppStore Info – *In Progress*
+- **⏸️ Future:** Add JSON Output – *Paused* (Waiting on iOS/MacOS AppStore Info)
+- **🚀 Future:** GitHub webpage with custom domain – *Waiting on funding/support 💸*
 
 I’m not here to make a profit—just here to ensure knowledge remains open and free for all, check the button below to support MOFA:
 
@@ -22,7 +23,7 @@ I’m not here to make a profit—just here to ensure knowledge remains open and
 <sup>All links below direct to Microsoft's official Content Delivery Network (CDN).</sup>
 <sup>The links provided will always download the latest version offered by Microsoft. However, the version information listed below reflects the version available at the time of this update.</sup>
 
-<sup>_Last Updated: <code style="color : mediumseagreen">December 09, 2024 03:13 PM EST</code> [**_Raw XML_**](/latest.xml) [**_Raw YAML_**](/latest.yaml) (Automatically Updated every 4 hours)_</sup>
+<sup>_Last Updated: <code style="color : mediumseagreen">December 09, 2024 07:59 PM EST</code> [**_Raw XML_**](/latest.xml) [**_Raw YAML_**](/latest.yaml) (Automatically Updated every 4 hours)_</sup>
 
 | **Product Package** | **CFBundle Version** | **CFBundle Identifier** | **Download** |
 |----------------------|----------------------|--------------------------|--------------|
