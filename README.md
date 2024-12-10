@@ -23,7 +23,7 @@ I’m not here to make a profit—just here to ensure knowledge remains open and
 <sup>All links below direct to Microsoft's official Content Delivery Network (CDN).</sup>
 <sup>The links provided will always download the latest version offered by Microsoft. However, the version information listed below reflects the version available at the time of this update.</sup>
 
-<sup>_Last Updated: <code style="color : mediumseagreen">December 09, 2024 11:14 PM EST</code> [**_Raw XML_**](/latest.xml) [**_Raw YAML_**](/latest.yaml) (Automatically Updated every 4 hours)_</sup>
+<sup>_Last Updated: <code style="color : mediumseagreen">December 10, 2024 03:16 AM EST</code> [**_Raw XML_**](/latest.xml) [**_Raw YAML_**](/latest.yaml) (Automatically Updated every 4 hours)_</sup>
 
 | **Product Package** | **CFBundle Version** | **CFBundle Identifier** | **Download** |
 |----------------------|----------------------|--------------------------|--------------|
